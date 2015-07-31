@@ -1,0 +1,2419 @@
+
+/* @author ||-> udemesamuel256@gmail.com */
+
+/*
+www.popibay.com or www.jobinpal.popibay.com
+-------------------------------------------
+A Jobinpal company
+
+Popibay is a Nigerian on line auctioning, Market, Dog management, Dog
+Breeding and Dog profiling application that manages the Dog business from
+the Dog manager to the Dog buyer, Also it manages the life cycle of the dog
+from the puppy stage to the stage of being sold out to the the auctioning
+buyers or direct buyers, which notifies it buyers about each and every process of
+the puppy.
+*/
+
+
+
+body
+{
+	overflow-x: hidden;
+	/*background: #e6e6e6;*/
+	/*background: url('http://localhost/laravel4/public/pb-assets/img/dog-cat-smarter-ftr.jpg') !important;
+	background-size: cover !important;*/
+}
+
+#pb-header {
+width: auto;
+box-shadow: 0px 0px 6px grey;
+background: white;
+height: 150px;
+margin-left: -100px;
+margin-right: -100px;
+}
+
+div#pb-logo-left {
+width: 270px;
+height: 70px;
+margin-top: 40px;
+/*margin-left: 20%;*/
+}
+
+div#pb-search-box {
+margin-top: 40px;
+height: 70px;
+margin-left: 20px;
+background: ;/* no colour for now*/
+font-family: source-sans-pro, helvetica, arial, sans-serif;
+
+}
+
+#pb-login-other-links
+{
+	margin-top: 40px;
+	height: 70px;
+	background: ;
+}
+
+div#pb-search-box-skeleton {
+position: absolute;
+margin-top: 10px;
+height: 49px;
+}
+
+/*#pb-hm-hd-cat {
+height: 48px;
+margin-left: 10px;
+}*/
+
+#pb-hm-hd-cat {
+height: 48px;
+color: white;
+text-shadow: 0px 0px 2px black;
+font-weight: bold;
+font-size: 20px;
+/* color: wheat; */
+margin-left: 10px;
+width: 135px;
+border-radius: 3px;
+/* background-color: #F07575; */
+background-image: -webkit-linear-gradient(top, hsl(0, 80%, 70%), #bada55);
+background-image: -moz-linear-gradient(top, hsl(0, 80%, 70%), #bada55);
+background-image: -ms-linear-gradient(top, hsl(0, 80%, 70%), #bada55);
+background-image: -o-linear-gradient(top, hsl(0, 80%, 70%), #bada55);
+background-image: linear-gradient(to bottom, #FFFF00, #cccc33);
+}
+
+#pb-hm-hd-in-search {
+height: 48px;
+width: 320px;
+background: white;
+padding: 20px;
+box-shadow: none;
+}
+
+#pb-hm-hd-but {
+background: white;
+height: 48px;
+border: #cccc33 2px solid;
+border-radius: 2px;
+color: #cccc33;
+width: 120px;
+}
+
+button:hover
+{
+	background: #cccc33;
+	/*-webkit-transition: 250ms linear background;
+	-moz-transition: 250ms linear background;
+	transition: 250ms linear background;*/
+}
+
+#pb-hm-hd-but:hover{
+	  background: #cccc33;
+	  color: white;
+  	-webkit-transition: 250ms linear background;
+	-moz-transition: 250ms linear background;
+	transition: 250ms linear background;
+}
+
+div#pb-login-other-links-skeleton {
+/*margin-top: 15px;*/
+margin-top: 5px;
+position: absolute;
+}
+
+#pb-hm-cont-tab-auctioned-or-sold-pets {
+width: auto;
+height: 50px;
+background: white;
+border: #cccc33 thin solid;
+margin-top: 10px;
+border-radius: 2px;
+}
+
+div.pb-hm-cont-pets-autioned-forsale-products {
+width: auto;
+height: 3000px;
+background: white;
+}
+
+.pb-hm-cont-pets-autioned-forsale-products {
+width: auto;
+height: 1000px;
+background: white;
+border-right: #ddd 2px solid;
+border-left: #ddd 2px solid;
+}
+
+#pb-footer {
+width: auto;
+margin-left: -50px; 
+margin-right: -100px;
+background: #cccc33;
+height: 300px;
+border-top: #BDBD0E 2px solid;
+}
+
+div.pb-footer-contents {
+width: auto;
+height: 300px;
+opacity: 0.5;
+background: white;
+}
+
+.pb-offjs-alert {
+width: 1400px;
+background: red;
+margin-left: -20px;
+}
+
+.pb-offjs-alert {
+width: auto;
+background: red;
+/* margin-left: -20px; */
+height: 200px;
+margin-left: -100px;
+margin-right: -100px;
+}
+
+.pb-offjs-alert-cont {
+margin-top: 65px;
+height: 60px;
+}
+
+#alert-err-msg {
+color: white;
+font-weight: bold;
+text-shadow: 0px 0px 5px grey;
+/* color: wheat; */
+}
+
+.pb-alert-err-layer {
+background: black;
+margin-left: -100px;
+margin-right: -100px;
+height: 3925px;
+width: 1000%;
+position: absolute;
+opacity: 0.3;
+z-index: 30;
+}
+
+
+#pb-hm-cont-infograhics-box {
+margin: 5px;
+width: auto;
+height: 288px;
+background: black;
+/* background: red; */
+}
+
+
+/* aution item and sales style */
+/* --------------------------- */
+#pb-item-box {
+width: 250px;
+height: 300px;
+background: whitesmoke;
+border: #ccc 2px solid;
+border-radius: 3px;
+margin-left: 6px;
+margin-top: 50px;
+width: 5;
+}
+
+
+
+/* popibay templates styles for butttons and other input elements */
+/* @start */
+
+.pb-all-inputs {
+border: #CCCC33 thin solid;
+color: grey;
+border-width: 3px;
+border-radius: 2px;
+background: whitesmoke;
+box-shadow: 0px 0px 5px grey;
+}
+
+.pb-all-select {
+border: #CCCC33 2px solid;
+border-radius: 3px;
+color: white;
+text-shadow: 1px 0px 1px black;
+background: #BDBD43;
+}
+
+.pb-all-options {
+background: rgb(231, 231, 155);
+/*border: #CCCC33 2px solid;*/
+border-top-color: rgb(204, 204, 51);
+}
+
+.pb-all-buttons {
+
+}
+
+.pb-all-ul
+{
+	list-style: none;
+}
+
+.pb-all-a-tag {
+color: #cccc33;
+font-size: 15px;
+font-weight: bold;
+}
+
+.pb-all-li {
+color: #8F8F0B;
+}
+
+.pb-all-a-tag:hover {
+color: #6D6D0E;
+text-decoration: none;
+border-left: #cccc33 2px solid;
+-webkit-transition: 250ms linear all;
+	-moz-transition: 250ms linear all;
+	transition: 250ms linear all;
+}
+
+.pb-select-button-gen {
+width: 200px;
+height: 50px;
+border: #cccc33 thin solid;
+border-radius: 2px;
+}
+
+
+.pb-select-button-gen-txt {
+font-family: sans-serif;
+font-size: 25px;
+margin-left: 13px;
+width: 50%;
+}
+
+#pb-hm-cont-ads-left {
+width: auto;
+height: 350px;
+background: #cccc33;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+#pb-hm-cont-ads-right {
+width: auto;
+height: 350px;
+background: #cccc33;
+margin-top: 20px;
+border-radius: 5px;
+}
+
+
+/*#pb-hm-cont-infograhics {
+width: auto;
+height: 300px;
+background: whitesmoke;
+margin-top: 45px;
+}*/
+
+#pb-hm-cont-infograhics {
+width: auto;
+height: 300px;
+margin-top: 45px;
+background: white;
+border-radius: 5px;
+border: #ccc 1px solid;
+box-shadow: 0px 0px 5px grey;
+}
+
+/*
+	pb select button customize using javascript
+				work on that later...
+<div class="pb-select-button-gen">
+    <h6 class="pb-select-button-gen-txt">Text</h6>
+    <span class="caret"></span>
+</div>
+*/
+
+
+/* @stop */
+/* ------------------------------ */
+
+#pb-select-hd {
+height: 40px;
+width: 130px;
+font-size: 20px;
+border-radius: 1px;
+}
+
+
+/* This is for the login.php page in the home. */
+.pb-login-box {
+width: 500px;
+height: 500px;
+background: red;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.pb-login-box {
+width: 500px;
+height: 500px;
+background: #cccc33;
+margin-left: 90px;
+border: white 2px solid;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+.pb-login-box-main-box {
+width: 400px;
+height: 400px;
+background: transparent;
+box-shadow: 0px 0px 5px grey;
+margin: 50px;
+border: white 2px solid;
+}
+
+
+.pb-login-usr-txt {
+font-size: 25px;
+margin-left: 65px;
+margin-top: 70px;
+color: white;
+/* color: wheat; */
+/* color: wheat; */
+}
+
+
+#pb-login-box-email {
+width: 350px;
+height: 50px;
+margin-left: 25px;
+margin-top: 20px;
+font-size: 26px;
+color: black;
+}
+
+#pb-login-box-pass
+{
+width: 350px;
+height: 50px;
+margin-left: 25px;
+margin-top: 20px;
+font-size: 26px;
+color: black;
+}
+
+#pb-hm-hd-but-login {
+background: white;
+margin-top: 20px;
+margin-left: 144px;
+font-weight: bolder;
+font-size: 20px;
+height: 48px;
+border: #cccc33 2px solid;
+box-shadow: 0px 0px 5px grey;
+border-radius: 2px;
+color: #cccc33;
+width: 120px;
+}
+
+#pb-hm-hd-but-login:hover
+{
+	background: #cccc33;
+	border: white 2px solid;
+	  color: white;
+  	-webkit-transition: 250ms linear background;
+	-moz-transition: 250ms linear background;
+	transition: 250ms linear background;
+}
+
+
+#pb-login-box-remember-password {
+width: 100px;
+height: 30px;
+margin-top: 20px;
+margin-left: -10px;
+/* border: red 2px solid; */
+/* background: red; */
+}
+
+/*#pb-login-box-remember-password::after
+{
+	content: "suck my dick please";
+	width:100px;
+	height: 70px;
+}*/
+
+#remember-password-txt {
+font-size: 25px;
+margin-top: 25px;
+margin-left: -25px;
+color: white;
+/* color: wheat; */
+/* position: absolute; */
+/* width: 700px; */
+}
+
+
+#forget-your-password {
+margin-top: -40px;
+}
+
+
+#forget-your-password-link {
+color: white;
+font-weight: bold;
+margin-left: 10px;
+}
+
+
+/* this for the sign up page. */
+.pb-signup-box {
+width: 500px;
+height: 900px;
+background: #cccc33;
+margin-left: 90px;
+border: white 2px solid;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+.pb-signup-box-main-box {
+width: 400px;
+height: 800px;
+background: transparent;
+box-shadow: 0px 0px 5px grey;
+margin: 50px;
+border: white 2px solid;
+}
+
+
+#pb-signup-box-email {
+width: 350px;
+height: 50px;
+margin-left: 25px;
+margin-top: 20px;
+font-size: 26px;
+color: black;
+}
+
+
+/* 
+
+Stackoverflow help for form input 
+---------------------------------
+---------->>>>>
+action="route | url"
+
+<form action="url | route" method="post"></form>
+************************************************
+
+
+<form action="post" id="pb-signup-form" action="{{link_to('/myroute')}}" method="post"></form>
+
+route::post('/myroute','myController@myFunction');
+
+$input= Input::all();
+
+
+*/
+
+
+/* this for the @emailconfirmation page styles */
+
+#emailconfirmation_txt_welcome {
+width: auto;
+height: 50px;
+margin-top: 50px;
+background: transparent;
+}
+
+
+#emailconfirmation_txt_welcome_box {
+margin-top: 20px;
+width: auto;
+padding: 20px;
+height: 250px;
+border: #BEBABA 2px solid;
+border-radius: 3px;
+margin-bottom: 50px;
+background: red;
+background: white;
+box-shadow: 0px 0px 5px #ccc;
+}
+
+#emailconfirmation_txt_welcome_txt {
+font-size: 40px;
+text-align: center;
+color: #cccc33;
+/* color: wheat; */
+}
+
+
+#emailconfirmation_txt_welcome_box_txt {
+font-size: 25px;
+color: #cccc33;
+text-align: justify;
+text-justify: initial;
+}
+
+
+#confirm_email_but {
+background: white;
+margin-top: 20px;
+margin-left: 178px;
+font-weight: bolder;
+font-size: 20px;
+height: 48px;
+border: #cccc33 2px solid;
+box-shadow: 0px 0px 5px grey;
+border-radius: 2px;
+color: #cccc33;
+width: 170px;
+}
+
+
+#confirm_email_but:hover
+{
+	background: #cccc33;
+	border: white 2px solid;
+	color: white;
+	-webkit-transition: 250ms linear background;
+	-moz-transition: 250ms linear background;
+	transition: 250ms linear background;
+}
+
+
+#pb-highlighted-txt {
+background: rgb(164, 170, 10);
+border: #92920A 2px solid;
+border-radius: 3px;
+color: white;
+text-shadow: 0px 0px 2px black;
+font-size: 20px;
+/* height: 54px; */
+}
+
+
+/* this for the forget password page */
+#pb-confirm-email {
+width: 350px;
+height: 50px;
+margin-left: 75px;
+margin-top: 10px;
+font-size: 26px;
+color: black;
+}
+
+#forgetpassword_txt_welcome_box {
+margin-top: 20px;
+width: auto;
+padding: 20px;
+height: 300px;
+border: #FFED1A 2px solid;
+border-radius: 3px;
+margin-bottom: 50px;
+background: red;
+background: rgb(255, 255, 197);
+box-shadow: 0px 0px 5px #ccc;
+}
+
+
+#remember_password_but {
+background: white;
+margin-top: 20px;
+margin-left: 145px;
+font-weight: bolder;
+font-size: 20px;
+height: 48px;
+border: #cccc33 2px solid;
+box-shadow: 0px 0px 5px grey;
+border-radius: 2px;
+color: #cccc33;
+width: 220px;
+}
+
+#remember_password_but:hover
+{
+	background: #cccc33;
+	border: white 2px solid;
+	  color: white;
+  	-webkit-transition: 250ms linear background;
+	-moz-transition: 250ms linear background;
+	transition: 250ms linear background;
+}
+
+/* this is for the noaccess area design */
+#pb-noaccessarea-box {
+width: auto;
+height: 500px;
+border: rgb(223, 23, 23) 2px solid;
+background: rgb(235, 21, 21);
+margin-top: 20px;
+border-radius: 5px;
+box-shadow: 0px 0px 2px black;
+margin-bottom: 20px;
+}
+
+#pb-noaccessarea-box-txt {
+color: white;
+/* color: wheat; */
+text-align: center;
+/* text-decoration: underline; */
+margin-top: 100px;
+}
+
+img#pb-noaccess-area-image {
+margin-left: 330px;
+}
+
+
+/* pb collection page styles */
+#pb-petscollec-header {
+width: auto;
+box-shadow: 0px 0px 6px grey;
+/* background: rgba(229, 230, 64, 0.8); */
+background-image: linear-gradient(to bottom, rgba(229, 230, 64, 0.8), #cccc33);
+height: 70px;
+margin-left: -100px;
+margin-right: -100px;
+}
+
+#pb-petscollec-header-logo {
+width: 250px;
+height: 50px;
+margin-top: 10px;
+/* background: red; */
+color: white;
+font-size: 30px;
+padding: 5px;
+}
+
+
+#pb-petscollec-header-search-box {
+width: 600px;
+height: 50px;
+margin-top: 10px;
+background: transparent;
+}
+
+
+#pb-petscollec-header-search-box {
+width: 650px;
+height: 50px;
+margin-top: 10px;
+background: transparent;
+}
+
+#pb-petscollec-header-settings {
+width: 150px;
+height: 50px;
+margin-top: 10px;
+background: transparent;
+}
+
+#pb-search-bar {
+width: 500px;
+height: 40px;
+font-size: 17px;
+background: white;
+margin-top: 5px;
+border-radius: 3px;
+box-shadow: none;
+border: #cccc33 2px solid;
+}
+
+#pb-search-bar-button {
+background: white;
+height: 40px;
+border: #cccc33 2px solid;
+border-radius: 2px;
+margin-left: -7px;
+color: #cccc33;
+width: 120px;
+}
+
+div#pb-msg-setting {
+background: url(http://localhost/laravel4/public/pb-assets/img/icons.png)324px -143px;
+width: 35px;
+height: 35px;
+/* top: 3px; */
+/* left: 1px; */
+margin-top: 5px;
+}
+
+
+#pb-msg-setting-list {
+background: url(http://localhost/laravel4/public/pb-assets/img/icons.png)0px -71px;
+width: 36px;
+height: 36px;
+/* top: 3px; */
+/* left: 1px; */
+margin-top: -35px;
+margin-left: 60px;
+}
+
+#pb-msg-setting-user-icon {
+background: white;
+box-shadow: 0px 0px 1px black;
+border: rgba(229, 230, 64, 0.8) thin solid;
+border-radius: 3px;
+padding: 5px;
+width: 40px;
+height: 40px;
+margin-top: -35px;
+margin-left: 110px;
+filter: grayscale(100%)
+}
+
+#pb-pet-collec-footer {
+background: rgba(228, 236, 34, 0.439216);
+width: auto;
+height: 300px;
+margin-left: -100px;
+margin-right: -100px;
+}
+
+.pb-content-top {
+width: auto;
+height: 50px;
+background: rgba(229, 230, 64, 0.8);
+border-bottom: rgb(204, 196, 9) thin solid;
+border-top: rgb(204, 196, 9) thin solid;
+margin-top: 2px;
+/* background: wheat; */
+}
+
+#pb-hm-cont-pets-autioned-forsale-products {
+width: auto;
+height: 1900px;
+background: white;
+}
+
+
+.pb-error-login {
+width: auto;
+height: 50px;
+background: red;
+border: white 2px solid;
+border-radius: 3px;
+padding: 10px;
+box-shadow: 0px 0px 2px black;
+}
+
+#pb-content-txt {
+font-size: 25px;
+font-weight: bolder;
+text-align: center;
+color: white;
+/* color: wheat; */
+}
+
+#petscollection_all {
+background: rgb(141, 141, 10);
+border-radius: 3px;
+color: white;
+/* color: wheat; */
+margin-right: 20px;
+border: rgb(121, 98, 8) thin solid;
+}
+
+
+#petscollection_auc
+{
+background: rgb(141, 141, 10);
+border-radius: 3px;
+color: white;
+/* color: wheat; */
+margin-right: 20px;
+border: rgb(121, 98, 8) thin solid;
+}
+
+#petscollection_sale
+{
+background: rgb(141, 141, 10);
+border-radius: 3px;
+color: white;
+/* color: wheat; */
+margin-right: 20px;
+border: rgb(121, 98, 8) thin solid;
+}
+
+#petscollection_breed
+{
+background: rgb(141, 141, 10);
+border-radius: 3px;
+color: white;
+/* color: wheat; */
+margin-right: 20px;
+border: rgb(121, 98, 8) thin solid;
+}
+
+
+#petscollection_all:hover,
+#petscollection_auc:hover,
+#petscollection_sale:hover,
+#petscollection_breed:hover
+{
+	background: #cccc33;
+	text-shadow:0px 0px 2px black;
+	color: white;
+	-webkit-transition: 250ms linear color;
+	-moz-transition: 250ms linear color;
+	transition: 250ms linear color;
+	text-decoration: none;
+}
+
+
+#dropdown {
+background: white;
+height: 105px;
+position: static;
+margin-top: 5px;
+position: relative;
+z-index: 3;
+border: rgb(204, 196, 9) 1px solid;
+display: none;
+/*box-shadow: 0px 0px 2px black;*/
+}
+
+ul
+{
+	padding: 0px;
+}
+
+li>a {
+/* color: indigo; */
+/* color: indianred; */
+color: rgb(165, 165, 48);
+font-weight: bolder;
+}
+
+
+
+li>a:hover
+{
+	color: white;
+	-webkit-transition: 250ms linear color;
+	-moz-transition: 250ms linear color;
+	transition: 250ms linear color;
+	text-decoration: none;
+}
+
+div#messages {
+width: auto;
+height: 500px;
+border: #ccc thin solid;
+border-radius: 3px;
+background: white;
+display: none;
+/* background: wheat; */
+}
+
+#dropdown1,
+#dropdown2,
+#dropdown3,
+#dropdown4 {
+list-style: none;
+text-align: center;
+margin-top: 10px;
+background: rgba(241, 239, 182, 0.56);
+}
+
+#dropdown1:hover,
+#dropdown2:hover,
+#dropdown3:hover,
+#dropdown4:hover
+{
+	background: rgba(229, 230, 64, 0.8);
+	color: white;
+	/*border-top: white thin solid;
+	border-bottom: white thin solid;*/
+  	-webkit-transition: 250ms linear background;
+	-moz-transition: 250ms linear background;
+	transition: 250ms linear background;	
+}
+
+
+#pb-dashboard-profile-background {
+height: 300px;
+width: auto;
+border: black thin solid;
+box-shadow: 0px 0px 4px black;
+margin-top: 10px;
+margin-bottom: 10px;
+background: url('http://localhost/laravel4/public/pb-assets/img/pb-bg/dashboard-bg/simple_dashed.png'),linear-gradient(to bottom, black, white);
+border-radius: 3px;
+}
+
+
+#pb-dashboard-user-image {
+width: 200px;
+height: 200px;
+background:white;
+box-shadow: 0px 0px 5px black;
+margin-left: 30%;
+padding: 10px;
+margin-top: 50px;
+border-radius: 3px;
+}
+
+
+#pb-dashboard-user-name {
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+color: white;
+text-shadow: 1px 1px 0px #cccc33;
+}
+
+#pb-dashboard-profile-menu-nav {
+width: auto;
+height: 1000px;
+background: transparent;
+border-left: #ccc thin solid;
+border-right: #ccc thin solid;
+margin-bottom: 20px;
+}
+
+
+#tab1,
+#tab2,
+#tab3,
+#tab4,
+#tab5,
+#tab6 {
+width: 150px;
+background: white;
+height: 50px;
+background: pink;
+margin-left: 5px;
+}
+
+
+#pb-dashboard-profile-menu-nav-tabs {
+width: auto;
+background: rgba(228, 228, 107, 0.52);
+height: 100px;
+border-bottom: #ccc 1px solid;
+border-top: #ccc 1px solid;
+}
+
+
+#pb-dashboard-newsfeed,
+#pb-dashboard-mypets,
+#pb-dashboard-mycollections,
+#pb-dashboard-petadmirers,
+#pb-dashboard-pethub,
+#pb-dashboard-market {
+text-align: center;
+/* margin-top: 40px; */
+font-size: 20px;
+color: white;
+text-decoration: none;
+cursor: pointer;
+}
+
+#pb-dashboard-profile-menu-nav-tabs-bg,
+#pb-dashboard-profile-menu-nav-tabs-bg2,
+#pb-dashboard-profile-menu-nav-tabs-bg3,
+#pb-dashboard-profile-menu-nav-tabs-bg4,
+#pb-dashboard-profile-menu-nav-tabs-bg5,
+#pb-dashboard-profile-menu-nav-tabs-bg6 {
+width: 180px;
+height: 99px;
+border-left: #cccc33 thin solid;
+border-right: #cccc33 thin solid;
+padding: 25px;
+background: red;
+text-shadow: 0px 2px 0px #cccc33;
+background: rgba(204, 204, 51, 0.31);
+/* position: relative; */
+margin-top: 0px;
+margin-left: -10px;
+cursor: pointer;
+}
+
+#pb-dashboard-profile-menu-nav-tabs-bg:hover,
+#pb-dashboard-profile-menu-nav-tabs-bg2:hover,
+#pb-dashboard-profile-menu-nav-tabs-bg3:hover,
+#pb-dashboard-profile-menu-nav-tabs-bg4:hover,
+#pb-dashboard-profile-menu-nav-tabs-bg5:hover,
+#pb-dashboard-profile-menu-nav-tabs-bg6:hover 
+{
+	background: rgba(229, 230, 64, 0.8);
+	text-decoration: none;
+	color: white;
+	color: white;
+	text-shadow: 0px 2px 0px #cccc33;
+	text-decoration: none;
+	-webkit-transition: 250ms linear background;
+	-moz-transition: 250ms linear background;
+	transition: 250ms linear background;
+	border-bottom: #cccc33 7px solid;
+}
+
+div > a
+{
+	text-decoration: none;
+}
+
+div > a:hover
+{
+	text-decoration: none;
+}
+
+#pb-dashboard-user-profile-img {
+width: 180px;
+height: 180px;
+background: #E7E78E;
+}
+
+
+#pb-dashboard-user-profile-hover {
+width: 204px;
+background: black;
+height: 70px;
+position: absolute;
+opacity: 0.4;
+margin-top: -135px;
+margin-left: 160px;
+display: none;
+}
+
+
+#pb-dashboard-user-change-pic-link {
+text-align: center;
+margin-top: -120px;
+margin-left: 176px;
+color: white;
+font-size: 20px;
+font-weight: bolder;
+font-weight: bold;
+/* color: wheat; */
+position: absolute;
+display: none;
+}
+
+
+#pb-settings-box {
+width: auto;
+height: 1000px;
+border: #ccc thin solid;
+/* border-right: #ccc thin solid; */
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+
+li>input
+{
+	margin-bottom: 10px;
+}
+
+
+#pb-settings-general-fname,
+#pb-settings-general-lname,
+#pb-settings-general-sname,
+#pb-settings-general-email,
+#pb-settings-general-pass,
+#pb-settings-general-phone
+{
+	width: 500px;
+	margin-bottom: 10px;
+}
+
+
+#pb-account-dashboard-delete-account {
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+
+#pb-dashboard-profile-background-img {
+width: 1138px;
+height: 300px;
+padding: 10px;
+position: absolute;
+background: linear-gradient(to bottom, black, white);
+opacity: 0.4;
+}
+
+
+#pb-dashboard-pets-feed,
+#pb-dashboard-my-pets,
+#pb-dashboard-my-collections,
+#pb-dashboard-pet-admirers,
+#pb-dashboard-pet-hub,
+#pb-dashboard-pet-market {
+text-align: center;
+color: #888809;
+text-shadow: none;
+margin-top: -5px;
+display: none;
+}
+
+/* stops the loading image */
+.tab-stop-loading-image
+{
+	display: none;
+}
+
+#pb-dashboard-profile-menu-content {
+width: auto;
+height: 850px;
+/*background: rgba(204, 204, 204, 0.18);*/
+margin-top: 20px;
+}
+
+#pb-dashboard-pet-text-content-tell-us {
+width: auto;
+height: 200px;
+background: rgba(204, 206, 16, 0.3);
+border: #cccc33 2px solid;
+border-radius: 5px;
+padding: 10px;
+}
+
+#pb-dashboard-tell-us-button {
+background: white;
+height: 40px;
+border: #cccc33 1px solid;
+border-radius: 2px;
+margin-left: -7px;
+margin-top: 70px;
+color: #cccc33;
+width: 120px;
+}
+
+#pb-dashboard-tell-us-text {
+margin-top: 70px;
+font-size: 30px;
+color: white;
+text-shadow: 0px 1px 0px #cccc33;
+}
+
+
+#pb-dashboard-pets-txt {
+text-align: center;
+font-size: 20px;
+color: #cccc33;
+font-size: large;
+/* background: #cccc33; */
+}
+
+#pb-dashboard-pet-text-content-tell-us-form {
+width: 350px;
+height: 400px;
+border: #cccc33 1px solid;
+box-shadow: 0px 0px 1px black;
+background: white;
+position: absolute;
+border-radius: 3px;
+z-index: 5;
+margin-top: -75px;
+margin-left: 100px;
+display: none;
+}
+
+.active-tab {
+background: rgba(229, 230, 64, 0.8) !important;
+text-decoration: none !important;
+color: white !important;
+text-shadow: 0px 2px 0px #cccc33 !important;
+text-decoration: none !important;
+-webkit-transition: 250ms linear background !important;
+-moz-transition: 250ms linear background !important;
+transition: 250ms linear background !important;
+border-bottom: #cccc33 7px solid !important;
+border-left: #cccc33 thin solid !important;
+border-right: #cccc33 thin solid !important;
+/* box-shadow: 0px 0px 0px black; */
+}
+
+.unactive-tab
+{
+	width: 180px !important;
+	height: 99px !important;
+	border-left: #cccc33 thin solid !important;
+	border-right: #cccc33 thin solid !important;
+	padding: 25px !important;
+	text-shadow: 0px 2px 0px #cccc33 !important;
+	background: red !important;
+	/* position: relative; */
+	margin-top: 0px !important;
+	margin-left: -10px !important;
+	cursor: pointer !important;
+}
+
+
+#pb-dashboard-profile-menu-content-error-display {
+width: auto;
+margin-top: 3px;
+font-size: 18px;
+height: 30px;
+text-align: center;
+color: white;
+background: rgb(249, 215, 62);
+border-bottom: rgb(220, 186, 33) 2px solid;
+border-top: rgb(220, 186, 33) 2px solid;
+display: none;
+/* position: absolute; */
+/* z-index: 100000; */
+}
+
+
+#pb-dashboard-profile-menu-content-error-display-txt {
+margin: 0px;
+margin-top: 4px;
+text-align: center;
+font-size: 18px;
+/* margin-left: 150px; */
+}
+
+#pb-tell-us-box {
+resize: none;
+width: 520px;
+margin-left: -10px;
+height: 140px;
+border: #cccc33 1px solid;
+}
+
+#pb-tell-us-box-post
+{
+background: white;
+height: 40px;
+border: #cccc33 1px solid;
+border-radius: 2px;
+margin-left: 390px;
+margin-top: -2px;
+color: #cccc33;
+width: 120px;
+}
+
+#pb-tell-us-box::-webkit-input-placeholder {
+   color: #cccc22;
+}
+
+#pb-tell-us-box:-moz-placeholder { /* Firefox 18- */
+   color: #cccc22;  
+}
+
+#pb-tell-us-box::-moz-placeholder {  /* Firefox 19+ */
+   color: #cccc22;  
+}
+
+#pb-tell-us-box:-ms-input-placeholder {  
+   color: #cccc22;  
+}
+
+#pb-dashboard-pet-dog-manager {
+width: 250px;
+margin-left: 10px;
+height: 440px;
+position: absolute;
+/* background: teal; */
+border-radius: 4px;
+border: #cccc33 1px solid;
+}
+
+#pb-DogManagers {
+width: auto;
+text-align: center;
+height: 50px;
+color: white;
+font-size: 20px;
+padding: 10px;
+font-weight: bold;
+/* color: wheat; */
+background: #cccc33;
+border-bottom: rgb(169, 160, 17) 1px solid;
+border-top: white 3px solid;
+border-right: white 3px solid;
+border-left: white 3px solid;
+border-top-left-radius: 3px;
+border-top-right-radius: 3px;
+}
+
+#pb-DogManagers-user-profile-img-con {
+width: 237px;
+height: 380px;
+background: transparent;
+margin-left: 5px;
+}
+
+
+#pb-DogManagers-load-more-content {
+width: auto;
+height: 50px;
+background: #cccc33;
+margin-top: -42px;
+border-top: rgb(169, 160, 17) 1px solid;
+}
+
+
+#pb-DogManagers-load-more-content-button {
+background: white;
+height: 40px;
+border: #A7A717 1px solid;
+border-radius: 2px;
+margin-left: 70px;
+margin-top: 5px;
+color: #cccc33;
+width: 120px;
+}
+
+#pb-dashboard-pet-dog-manager-right {
+width: 250px;
+margin-right: 10px;
+height: 440px;
+position: absolute;
+/* background: teal; */
+border-radius: 4px;
+border: #cccc33 1px solid;
+}
+
+
+#pb-tell-us-box-spinner {
+text-align: center;
+color: #888809;
+position: absolute;
+margin-left: 360px;
+margin-top: 5px;
+display: none;
+}
+
+
+#drop-area-div {
+width: auto;
+height: 300px;
+border: rgb(162, 176, 225) 2px dashed;
+/* border: red; */
+}
+
+
+div#upload-box {
+height: 150px;
+}
+
+/* my pets tab style */
+
+.addpetbox {
+width: auto;
+height: 150px;
+background: transparent;
+}
+
+
+#addbuttoncon {
+width: 130px;
+height: 130px;
+border-radius: 3px;
+background: pink;
+margin-top: 10px;
+padding: 20px;
+font-size: 20px;
+}
+
+
+#addapetbox {
+width: 550px;
+height: 130px;
+margin-top: 10px;
+font-size: 40px;
+padding: 30px;
+text-align: center;
+color: white;
+background: rgb(125, 233, 147);
+border: rgb(49, 218, 83) 2px solid;
+border-radius: 3px;
+}
+
+
+#addbuttoncon {
+width: 130px;
+height: 130px;
+border-radius: 3px;
+background: rgb(125, 233, 147);
+color: white;
+border: rgb(49, 218, 83) 2px solid;
+margin-top: 10px;
+padding: 20px;
+font-size: 20px;
+cursor: pointer;
+}
+
+
+#addbuttoncon:hover {
+background: rgb(49, 218, 83);
+border: inset 2px rgb(18, 155, 51);
+color: rgb(29, 163, 34);
+-webkit-transition: 250ms linear background;
+-moz-transition: 250ms linear background;
+transition: 250ms linear background;
+}
+
+
+#petform {
+width: 350px;
+margin-left: 60px;
+position: absolute;
+margin-top: -150px;
+height: 400px;
+display: none;
+z-index: 1000;
+background: white;
+box-shadow: 0px 0px 5px black;
+border-radius: 3px;
+}
+
+
+#addapetform
+{
+height: 400px;
+}
+
+
+#pb-dashboard-user-profile-img-settings 
+{
+width: 29px;
+height: 29px;
+}
+
+
+.preview_profile_img {
+background: white;
+height: 80px;
+width: 100px;
+box-shadow: 0px 0px 5px black;
+border-radius: 3px;
+}
+
+#pb-dashboard-user-profile-img-preview {
+width: 80px;
+height: 70px;
+margin-top: 5px;
+}
+
+#mypetsform {
+width: 690px;
+height: 700px;
+}
+
+
+.pb-pets-family {
+min-width: 300px;
+height: 200px;
+background: whitesmoke;
+border: 2px dashed gold;
+border-radius: 5px;
+margin-top: 30px;
+}
+
+
+#error-no-pets {
+text-align: center;
+margin-top: 80px;
+font-weight: bold;
+}
+
+
+#my-pets-content
+{
+	height: 600px;
+}
+
+
+#my-pets-label {
+min-width: 750px;
+height: 30px;
+background: gold;
+border-bottom: rgb(243, 206, 8) 2px solid;
+border-top: rgb(243, 206, 8) 2px solid;
+text-align: center;
+padding: 0px;
+color: white;
+font-size: 20px;
+margin-top: 20px;
+}
+
+.pb-pets-father-profile-pic {
+max-width: 155px;
+height: 80px;
+border-radius: 5px;
+background: white;
+border: gold 1px solid;
+margin-top: 10px;
+box-shadow: 0px 0px 2px black;
+}
+
+.pb-pets-mother-profile-pic {
+max-width: 155px;
+height: 80px;
+border-radius: 5px;
+background: white;
+border: gold 1px solid;
+margin-top: 10px;
+box-shadow: 0px 0px 2px black;
+}
+
+
+.pb-pets-mother-or-father-profile-pic {
+min-width: 155px;
+height: 100px;
+border-radius: 5px;
+background: white;
+border: gold 1px solid;
+position: absolute;
+margin-top: 35px;
+box-shadow: 0px 0px 2px black;
+/*display: none;*/
+}
+
+
+.pb-pets-father-profile-pic-img {
+min-width: 140px;
+height: 70px;
+margin-left: 6px;
+margin-top: 4px;
+}
+
+
+.pb-pets-mother-profile-pic-img
+{
+min-width: 140px;
+height: 70px;
+margin-left: 6px;
+margin-top: 4px;
+}
+
+
+.pb-pets-mother-or-father-profile-pic-img
+{
+min-width: 140px;
+height: 90px;
+margin-left: 6px;
+margin-top: 4px;
+}
+
+.pb-delete-pets-parent {
+position: absolute;
+margin-left: -80px;
+margin-top: 25px;
+color: red;
+}
+
+
+
+.pb-delete-pets-parent-both {
+position: absolute;
+margin-left: -80px;
+margin-top: 35px;
+color: red;
+}
+
+
+.pb-pets-children-one {
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 150px;
+height: 150px;
+margin-left: 150px;
+margin-top: 25px;
+display: none;
+}
+
+
+.pb-pets-children-one-img {
+min-width: 130px;
+height: 130px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+/* background: wheat; */
+}
+
+
+
+.pb-delete-pets-children-one
+{
+position: absolute;
+margin-left: -75px;
+margin-top: 60px;
+color: red;
+}
+
+
+.pb-pets-con-parent-border {
+width: 170px;
+height: 170px;
+background: transparent;
+border-right: gold 2px dashed;
+}
+
+
+.pb-pets-children-second-left {
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 150px;
+height: 150px;
+margin-left: 90px;
+margin-top: 25px;
+display: none;
+}
+
+.pb-pets-children-second-left-img
+{
+min-width: 130px;
+height: 130px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+.pb-delete-pets-children-second-left
+{
+position: absolute;
+margin-left: -75px;
+margin-top: 60px;
+color: red;
+}
+
+
+.pb-pets-children-second-right
+{
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 150px;
+height: 150px;
+margin-left: 280px;
+margin-top: -150px;
+display: none;	
+}
+
+
+.pb-pets-children-second-left-img
+{
+min-width: 130px;
+height: 130px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+
+.pb-delete-pets-children-second-left
+{
+position: absolute;
+margin-left: -75px;
+margin-top: 60px;
+color: red;
+}
+
+
+
+.pb-pets-children-third-left
+{
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 150px;
+height: 150px;
+margin-left: 10px;
+margin-top: 20px;
+display: none;
+}
+
+
+
+.pb-pets-children-third-left-img
+{
+min-width: 130px;
+height: 130px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+
+
+.pb-delete-pets-children-third-left
+{
+position: absolute;
+margin-left: -75px;
+margin-top: 60px;
+color: red;
+}
+
+
+.pb-pets-children-third-middle
+{
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 150px;
+height: 150px;
+margin-left: 190px;
+margin-top: -150px;
+display: none;
+}
+
+
+.pb-pets-children-third-middle-img
+{
+min-width: 130px;
+height: 130px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+
+.pb-delete-pets-children-third-middle
+{
+position: absolute;
+margin-left: -75px;
+margin-top: 60px;
+color: red;
+}
+
+
+.pb-pets-children-third-right
+{
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 150px;
+height: 150px;
+margin-left: 370px;
+margin-top: -150px;
+display: none;
+}
+
+
+.pb-pets-children-third-right-img
+{
+min-width: 130px;
+height: 130px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+
+.pb-delete-pets-children-third-right
+{
+position: absolute;
+margin-left: -75px;
+margin-top: 60px;
+color: red;
+}
+
+
+.pb-delete-family {
+margin-left: 400px;
+position: absolute;
+margin-top: 10px;
+box-shadow: 0px 0px 1px black;
+border-radius: 2px;
+background: gold;
+border: rgb(185, 139, 17) 1px solid;
+color: rgb(163, 143, 35);
+}
+
+
+
+.pb-pets-children-fourth-left
+{
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 100px;
+height: 100px;
+margin-left: 10px;
+margin-top: 50px;
+}
+
+.pb-pets-children-fourth-left-img
+{
+min-width: 80px;
+height: 80px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;	
+}
+
+.pb-delete-pets-children-fourth-left
+{
+position: absolute;
+margin-left: -50px;
+margin-top: 35px;
+color: red;
+}
+
+.pb-pets-children-fourth-second {
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 100px;
+height: 100px;
+margin-left: 130px;
+margin-top: -100px;
+}
+
+.pb-pets-children-fourth-second-img {
+min-width: 80px;
+height: 80px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+.pb-delete-pb-pets-children-fourth-second
+{
+position: absolute;
+margin-left: -50px;
+margin-top: 35px;
+color: red;
+}
+
+.pb-pets-children-fourth-third
+{
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 100px;
+height: 100px;
+margin-left: 250px;
+margin-top: -100px;
+}
+
+
+.pb-pets-children-fourth-third-img
+{
+min-width: 80px;
+height: 80px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+
+.pb-delete-pb-pets-children-fourth-third
+{
+position: absolute;
+margin-left: -50px;
+margin-top: 35px;
+color: red;
+}
+
+.pb-pets-children-fourth-four
+{
+background: white;
+border: gold 1px solid;
+box-shadow: 0px 0px 2px black;
+border-radius: 5px;
+max-width: 100px;
+height: 100px;
+margin-left: 370px;
+margin-top: -100px;
+}
+
+
+.pb-pets-children-fourth-four-img
+{
+min-width: 80px;
+height: 80px;
+margin-top: 10px;
+margin-left: 10px;
+background: white;
+}
+
+
+.pb-delete-pb-pets-children-fourth-four
+{
+position: absolute;
+margin-left: -50px;
+margin-top: 35px;
+color: red;
+}
+
+/* google button style hover for google search i love this stuff udeme.samuel */
+#pb-dashboard-user-change-pic-link:focus {
+-webkit-box-shadow: inset 0 0 0 1px #fff;
+box-shadow: inset 0 0 0 1px #fff;
+}
+
+.fam-check-loader {
+position: absolute;
+font-size: 40px;
+left: 290px;
+top: 140px;
+display: none;
+}
+
+
+#pb-pet-cover-photo-upload {
+position: absolute;
+border-radius: 25px;
+box-shadow: 0px 0px 10px white;
+width: 50px;
+height: 50px;
+margin-top: -10px;
+margin-left: 40px;
+border: white 1px solid;
+}
+
+/*
+background: black;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border: rgb(128, 125, 125) 1px solid;
+width: 300px;
+font-size: 15px;
+text-align: center;
+color: white;
+font-weight: bold;
+height: 70px;
+margin-top: 120px;
+position: absolute;
+padding: 20px;
+*/
+
+
+.pb-upload-stretch {
+background: black;
+border-top-right-radius: 50px;
+border-bottom-right-radius: 50px;
+border: rgb(128, 125, 125) 1px solid;
+width: 300px;
+font-size: 15px;
+text-align: left;
+color: white;
+font-weight: bold;
+height: 70px;
+margin-top: 120px;
+margin-left: 10px;
+position: absolute;
+padding: 20px;
+}
+
+#pb-pet-cover-photo-upload:focus {
+-webkit-box-shadow: inset 0 2px 0 1px #fff;
+box-shadow: inset 0 2px 0 1px #fff;
+}
+
+
+#returnFamCheckInput {
+/* margin-left: 90px; */
+float: right;
+margin-top: -10px;
+}
+
+#addbutton
+{
+width: 130px;
+height: 130px;
+border-radius: 3px;
+background: rgb(125, 233, 147);
+color: white;
+border: rgb(49, 218, 83) 2px solid;
+margin-top: 10px;
+padding: 20px;
+font-size: 20px;
+cursor: pointer;
+}
+
+
+#petAddGUI {
+min-width: 300px;
+min-height: 200px;
+background: rgba(173, 230, 185, 0.56);
+border: rgb(125, 233, 147) 2px solid;
+border-radius: 5px;
+}
+
+
+#petAddGUI:hover {
+border: rgb(98, 204, 120) 2px solid;
+/* border: red; */
+-webkit-box-shadow: inset 0 2px 0 1px #fff;
+box-shadow: inset 0 1px 2px 0px rgb(98, 204, 120);
+-webkit-transition: 250ms linear box-shadow;
+	-moz-transition: 250ms linear box-shadow;
+	transition: 250ms linear box-shadow;
+}
+
+
+#addpetfamily
+{
+background: rgb(98, 204, 120);
+color: white;
+font-size: large;
+border-radius: initial;
+}
+
+
+#petfamtxtin {
+border: rgb(125, 233, 147) 2px solid;
+height: 30px;
+min-width: 200px;
+margin-left: 0px;
+}
+
+
+#petfamtxtin-but {
+width: 30px;
+height: 30px;
+margin-top: 0px;
+color: white;
+position: absolute;
+background: rgb(125, 233, 147);
+border: rgb(125, 233, 147) 1px solid;
+}
+
+
+#petfamtxtin:focus,#petfamtxtin-but:focus {
+/* border-top: rgb(98, 204, 120) 2px solid !important; */
+/* border-left: rgb(98, 204, 120) 2px solid !important; */
+/* border-bottom: rgb(98, 204, 120) 2px solid !important; */
+outline: rgb(98, 204, 120) 2px solid;
+/* border-bottom: red; */
+}
+
+
+#petfamtxtin-spinnner {
+margin-left: 40px;
+color: rgb(98, 204, 120);
+display: none;
+}
+
+
+#petfamtxtin-label {
+color: white;
+padding: 2px;
+width: 230px;
+height: 30px;
+text-align: center;
+background: rgb(125, 233, 147);
+/* border-top: rgb(98, 204, 120) 2px solid; */
+border-right: rgb(98, 204, 120) 2px solid;
+border-bottom-right-radius: 3px;
+/* border-right: red; */
+border-bottom: rgb(98, 204, 120) 2px solid;
+display: none;
+}
+
+
+.petfamilygroup {
+position: relative;
+display: table;
+background: white;
+border: rgba(98, 204, 120, 0.67) 1px solid;
+min-width: 854px;
+margin-top: 10px;
+margin-left: 5px;
+border-radius: 5px;
+height: 150px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border-collapse: separate;
+}
+
+
+#parent_image_male {
+width: 70px;
+height: 70px;
+background: rgb(98, 204, 120);
+margin-top: 20px;
+padding: 5px;
+}
+
+
+#parent_image_male>img {
+width: 60px;
+height: 60px;
+background: white;
+}
+
+
+#parent_image_female {
+width: 70px;
+height: 70px;
+background: red;
+margin-top: -70px;
+margin-left: 90px;
+padding: 5px;
+}
+
+#parent_image_male>input {
+position: absolute;
+margin-left: 53px;
+background: red;
+border: white 1px solid;
+margin-top: -14px;
+margin-left: 20px;
+width: 20px;
+height: 20px;
+}
+
+
+#parent_image_male:hover {
+outline: rgb(125, 233, 147) 5px solid;
+}
+
+
+div#pet_container_male {
+background: rgb(125, 233, 147);
+/* height: 50px; */
+/* border: rgb(125, 233, 147) 1px solid; */
+}
+
+
+#petFamilyMale,
+#petFamilyFemale,
+#petFamilyChildOne{
+background: red;
+width: auto;
+height: 100px;
+margin-bottom: 20px;
+padding: 10px
+}
+
+
+.petfamilygroup>div {
+background: red;
+width: auto;
+height: 100px;
+margin-bottom: 20px;
+}
+
+
+#petFamilyMale>img,
+#petFamilyFemale>img,
+#petFamilyChildOne>img,
+#petFamilyChildTwo>img,
+#petFamilyChildThree>img,
+#petFamilyChildFour>img,
+#petFamilyChildFive>img,
+#petFamilyChildSix>img,
+#petFamilyChildSeven>img,
+#petFamilyChildEight>img{
+float: left;
+height: 80px;
+width: 80px;
+}
+
+#petFamilyMale>h3,
+#petFamilyFemale>h3,
+#petFamilyChildOne>h3,
+#petFamilyChildTwo>h3,
+#petFamilyChildThree>h3,
+#petFamilyChildFour>h3,
+#petFamilyChildFive>h3,
+#petFamilyChildSix>h3,
+#petFamilyChildSeven>h3,
+#petFamilyChildEight>h3{
+/* float: right; */
+font-size: 30px;
+margin-left: 100px;
+color: rgb(98, 204, 120);
+}
+
+div#petFamilyMale:hover,
+div#petFamilyFemale:hover,
+div#petFamilyChildOne:hover,
+div#petFamilyChildTwo:hover,
+div#petFamilyChildThree:hover,
+div#petFamilyChildFour:hover,
+div#petFamilyChildFive:hover,
+div#petFamilyChildSix:hover,
+div#petFamilyChildSeven:hover,
+div#petFamilyChildEight:hover{
+outline: rgb(98, 204, 120) 2px solid;
+box-shadow: 0px 0px 3px black;
+background: rgb(239, 248, 241);
+}
+
+
+#petFamilyMale,
+#petFamilyFemale,
+#petFamilyChildOne,
+#petFamilyChildTwo,
+#petFamilyChildThree,
+#petFamilyChildFour, 
+#petFamilyChildFive,
+#petFamilyChildSix,
+#petFamilyChildSeven,
+#petFamilyChildEight{
+background: white;
+width: auto;
+height: 100px;
+margin-bottom: 20px;
+padding: 10px;
+border: rgb(186, 242, 197) 2px solid;
+}
+
+
+#petFamilyMale>span,
+#petFamilyFemale>span,
+#petFamilyChildOne>span,
+#petFamilyChildTwo>span,
+#petFamilyChildThree>span,
+#petFamilyChildFour>span,
+#petFamilyChildFive>span,
+#petFamilyChildSix>span,
+#petFamilyChildSeven>span,
+#petFamilyChildEight>span{
+float: right;
+width: 100px;
+height: 90px;
+margin-top: -70px;
+margin-right: -7px;
+border: rgb(125, 233, 147) 1px solid;
+position: relative;
+background: rgb(186, 242, 197);
+/*display: none;*/
+}
+
+
+#petFamilyMale>span>input,
+#petFamilyFemale>span>input,
+#petFamilyChildOne>span>input,
+#petFamilyChildTwo>span>input,
+#petFamilyChildOne>span>input,
+#petFamilyChildThree>span>input,
+#petFamilyChildFour>span>input,
+#petFamilyChildFive>span>input,
+#petFamilyChildSix>span>input,
+#petFamilyChildSeven>span>input,
+#petFamilyChildEight>span>input{
+width: 50px;
+height: 50px;
+border: red thin solid;
+margin-top: 20px;
+margin-left: 25px;
+}
+
+
+a.alt-checkbox.fontawesome-ok.big.outline-unchecked.checked,
+a.alt-checkbox.fontawesome-ok.big.outline-unchecked{
+/* width: 50px; */
+/* height: 50px; */
+margin-top: 25px;
+margin-left: 30px;
+}
+
+
+.petfamilymalechecked
+{
+	border:gold 2px solid !important;
+}
+
+.petfamilymaleh3checked
+{
+	color: gold !important;
+}
+
+.petfamilymalespanchecked
+{
+	border: rgb(220, 186, 33) 1px solid !important;
+	background: gold !important;
+}
+
+
+div#petFamilyMaleForm,
+div#petFamilyFemaleForm,
+div#petFamilyChildOneForm,
+div#petFamilyChildTwoForm,
+div#petFamilyChildThreeForm,
+div#petFamilyChildFourForm,
+div#petFamilyChildFiveForm,
+div#petFamilyChildSixForm,
+div#petFamilyChildSevenForm,
+div#petFamilyChildEightForm {
+width: 300px;
+height: 570px;
+border: gold 2px solid;
+background: linear-gradient(to bottom, gold, rgb(252, 249, 233));
+margin-left: 520px;
+padding: 10px;
+z-index: 300;
+position: absolute;
+box-shadow: 0px 0px 5px grey;
+display: none;
+}
+
+
+div#pefamilynameerror,
+div#pefamilynameerror_female,
+div#pefamilynameerror_childone,
+div#pefamilynameerror_childtwo,
+div#pefamilynameerror_childthree,
+div#pefamilynameerror_childfour,
+div#pefamilynameerror_childfive,
+div#pefamilynameerror_childsix,
+div#pefamilynameerror_childseven,
+div#pefamilynameerror_childeight{
+background: red;
+height: 30px;
+text-align: center;
+color: white;
+font-weight: bold;
+padding: 3px;
+border: rgb(238, 5, 5) 2px solid;
+display: none;
+}
+
+
+div#seperation_line {
+height: 30px;
+border: rgb(73, 213, 101) 1px solid;
+background: rgb(125, 233, 147);
+color: white;
+font-size: 20px;
+font-weight: bolder;
+text-align: center;
+/* color: wheat; */
+}
+
+
+#loader_parent_male,
+#loader_parent_female,
+#loader_parent_childone,
+#loader_parent_childtwo,
+#loader_parent_childthree,
+#loader_parent_childfour,
+#loader_parent_childfive,
+#loader_parent_childsix,
+#loader_parent_childseven,
+#loader_parent_childeight
+{
+	display: none;
+}
+
+::selection {
+background: #FFF7A8;
+color: #444444;
+text-shadow: none;
+}

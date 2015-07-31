@@ -1,0 +1,627 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"lo",
+				"localhost"
+			],
+			[
+				"if",
+				"if	if …"
+			],
+			[
+				"Ad",
+				"Admin"
+			],
+			[
+				"logo",
+				"logout"
+			],
+			[
+				"h",
+				"h2	Tag"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"con_",
+				"con_img_yes_cbox"
+			],
+			[
+				"Client",
+				"ClientAvatar"
+			],
+			[
+				"SearchTermF",
+				"SearchTermFour"
+			],
+			[
+				"CompanyLikedWebsitesT",
+				"CompanyLikedWebsitesTwo"
+			],
+			[
+				"CompanyCompetitorslinkT",
+				"CompanyCompetitorslinkThree"
+			],
+			[
+				"SearchTermT",
+				"SearchTermThree"
+			],
+			[
+				"ch",
+				"checkbox1"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"ques",
+				"questions"
+			],
+			[
+				"class",
+				"class	Attr"
+			],
+			[
+				"petN",
+				"petNameErrMessage"
+			],
+			[
+				"user",
+				"userid"
+			],
+			[
+				"mes",
+				"messages"
+			],
+			[
+				"addpet",
+				"addpet"
+			],
+			[
+				"pet_a",
+				"pet_avatar"
+			],
+			[
+				"with",
+				"withErrors"
+			],
+			[
+				"pet_",
+				"pet_name"
+			],
+			[
+				"pet",
+				"pet_name"
+			],
+			[
+				"tab",
+				"table"
+			],
+			[
+				"pb_",
+				"pb_user_name"
+			],
+			[
+				"Se",
+				"Session"
+			],
+			[
+				"invi",
+				"invitation"
+			],
+			[
+				"account",
+				"account_type"
+			],
+			[
+				"Add",
+				"AddFriend"
+			],
+			[
+				"acc",
+				"accounttype"
+			],
+			[
+				"S",
+				"Session"
+			],
+			[
+				"butto",
+				"button"
+			],
+			[
+				"ver",
+				"verification"
+			],
+			[
+				"confirmation",
+				"confirmation_code"
+			],
+			[
+				"wel",
+				"welcome_back"
+			],
+			[
+				"choose",
+				"chooseaccount"
+			],
+			[
+				"arra",
+				"array	$… = array (…)"
+			],
+			[
+				"face",
+				"facebooklogin"
+			],
+			[
+				"array",
+				"array"
+			],
+			[
+				"confir",
+				"confirmation_code"
+			],
+			[
+				"confirm",
+				"confirmemail"
+			],
+			[
+				"pb_user",
+				"pb_user_email"
+			],
+			[
+				"get",
+				"get"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"form",
+				"form_err"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"dr",
+				"dropdown-1"
+			],
+			[
+				"Fo",
+				"Form"
+			],
+			[
+				"home",
+				"homelogin"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"st",
+				"style	Tag"
+			],
+			[
+				"l",
+				"label	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"div",
+				"div	Tag"
+			],
+			[
+				"but",
+				"button"
+			],
+			[
+				"lar",
+				"large-12"
+			],
+			[
+				"me",
+				"medium-12"
+			],
+			[
+				"co",
+				"columns"
+			],
+			[
+				"col",
+				"columns"
+			],
+			[
+				"small",
+				"small-12"
+			],
+			[
+				"ccc",
+				"cccc33"
+			],
+			[
+				"smal",
+				"small-12"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"sma",
+				"small-12"
+			],
+			[
+				"s",
+				"section	Tag"
+			],
+			[
+				"to",
+				"toggle"
+			],
+			[
+				"t",
+				"type	Attr"
+			],
+			[
+				"off",
+				"offcanvas"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 306.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"",
+				"CodeFormatter: Format as HTML Syntax"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 181.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/var/www/html/mquestions/app/views/Home/index.blade.php",
+		"/var/www/html/mquestions/vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php",
+		"/var/www/html/mquestions/vendor/laravel/framework/src/Illuminate/Auth/AdminInterface.php",
+		"/var/www/html/mquestions/vendor/laravel/framework/src/Illuminate/Auth/AdminTrait.php",
+		"/etc/hosts",
+		"/etc/apache2/sites-enabled/000-default.conf",
+		"/var/www/html/mquestions/app/views/Home/Template/master_one.blade.php",
+		"/var/www/html/mquestions/app/config/auth.php",
+		"/var/www/html/mquestions/app/controllers/LogoutController.php",
+		"/var/www/html/mquestions/app/views/Home/Questions/question_one.blade.php",
+		"/var/www/html/mquestions/app/views/Home/Questions/question_two.blade.php",
+		"/var/www/html/mquestions/app/views/Home/Finish/finish.blade.php",
+		"/var/www/html/mquestions/app/controllers/QuestionTwoController.php",
+		"/var/www/html/mquestions/app/views/Home/Questions/question_three.blade.php",
+		"/var/www/html/mquestions/app/controllers/QuestionOneController.php",
+		"/var/www/html/mquestions/app/views/Home/Questions/question_four.blade.php",
+		"/var/www/html/mquestions/app/controllers/QuestionFourController.php",
+		"/var/www/html/mquestions/app/config/database.php",
+		"/var/www/html/mquestions/app/controllers/QuestionThreeController.php",
+		"/var/www/html/mquestions/app/config/app.php",
+		"/var/www/html/mquestions/app/storage/logs/laravel.log",
+		"/var/www/html/mquestions/app/views/Home/Template/master.blade.php",
+		"/var/log/apache2/access.log",
+		"/var/log/apache2/other_vhosts_access.log.1",
+		"/var/www/websiteclient/app/views/Home/Questions/question_three.blade.php",
+		"/var/www/websiteclient/composer.json",
+		"/var/www/websiteclient/app/views/Home/Questions/question_two.blade.php",
+		"/var/www/websiteclient/app/controllers/QuestionTwoController.php",
+		"/var/www/websiteclient/app/controllers/QuestionOneController.php",
+		"/var/www/websiteclient/app/views/Home/Questions/question_one.blade.php",
+		"/var/www/websiteclient/app/models/Admin.php",
+		"/var/www/websiteclient/app/models/Question.php",
+		"/var/www/websiteclient/app/config/database.php",
+		"/var/www/websiteclient/app/views/Home/Questions/question_four.blade.php",
+		"/var/www/websiteclient/app/views/Home/Template/master_one.blade.php",
+		"/var/www/websiteclient/app/views/Home/Template/master.blade.php",
+		"/var/www/websiteclient/app/views/Home/index.blade.php",
+		"/var/www/websiteclient/app/controllers/AdministratorController.php",
+		"/var/www/websiteclient/app/helpers/pb_helpers.php",
+		"/var/www/websiteclient/app/config/app.php",
+		"/var/www/websiteclient/public/index.php",
+		"/var/www/popibay/app/models/Pet.php",
+		"/var/www/popibay/app/controllers/RegistrationController.php",
+		"/var/www/popibay/app/views/Home/Welcome/AddFriend.blade.php",
+		"/var/www/popibay/app/controllers/ConfirmEmailController.php",
+		"/var/www/popibay/app/controllers/HomeLoginController.php",
+		"/var/www/popibay/app/controllers/ConfirmedEmailController.php",
+		"/var/www/popibay/app/controllers/AccountTypeController.php",
+		"/var/www/popibay/app/controllers/InviteFriendController.php",
+		"/var/www/popibay/app/controllers/HomeRegisterController.php",
+		"/var/www/popibay/app/views/Home/Dashboard/addpet@petmanager.blade.php",
+		"/var/www/popibay/app/controllers/AddPetController.php",
+		"/var/www/popibay/app/views/Home/Template/master@dashboard.blade.php",
+		"/var/www/popibay/app/views/Home/Dashboard/dashboard@petmanager.blade.php",
+		"/var/www/popibay/app/routes.php",
+		"/var/www/popibay/app/helpers/pb_helpers.php",
+		"/etc/apache2/ports.conf",
+		"/var/www/popibay/app/config/database.php",
+		"/var/www/html/oxwall/ow_includes/config.php",
+		"/var/www/popibay/app/views/emails/welcome.blade.php",
+		"/var/www/popibay/app/views/Home/Template/master.blade.php",
+		"/var/www/popibay/app/views/Home/Welcome/ChooseAccount.blade.php",
+		"/var/www/popibay/app/storage/logs/laravel.log",
+		"/var/www/popibay/public/pb-assets/css/pbemail.css",
+		"/var/www/popibay/app/views/Home/Member/login.blade.php",
+		"/var/www/popibay/app/config/mail.php",
+		"/var/www/popibay/app/views/Home/facebooklogin.blade.php",
+		"/var/www/popibay/public/pb-assets/css/email.css",
+		"/var/www/popibay/public/pb-assets/frameworks/zurb email temp/basic.html",
+		"/var/www/popibay/app/views/Home/confirmemail.blade.php",
+		"/var/www/popibay/app/views/Home/index.blade.php",
+		"/var/www/popibay/app/views/Home/EmailConfirmation.blade.php",
+		"/var/www/popibay/app/views/emails/auth/reminder.blade.php",
+		"/var/www/popibay/app/views/Home/About.blade.php",
+		"/var/www/popibay/app/lang/en/validation.php",
+		"/var/www/popibay/app/config/packages/greggilbert/recaptcha/config.php",
+		"/var/www/popibay/app/filters.php",
+		"/var/www/popibay/app/config/app.php",
+		"/var/www/popibay/composer.json",
+		"/var/www/popibay/composer.lock",
+		"/var/www/popibay/app/controllers/RecaptchaController.php",
+		"/var/www/popibay/app/recyclebin/recycle_pbhelpers.php",
+		"/var/www/popibay/app/views/Home/Dashboard/market.blade.php",
+		"/var/www/popibay/vendor/predis/predis/lib/Predis/Helpers.php",
+		"/var/www/popibay/app/views/Home/Forums/forum-master/helpers.php",
+		"/var/www/popibay/public/pb-assets/frameworks/github-forums-software/roar-master/roar/helpers.php",
+		"/var/www/popibay/phpunit.xml",
+		"/var/www/popibay/public/pb-assets/frameworks/bootstrap/less/progress-bars.less",
+		"/var/www/popibay/public/pb-assets/frameworks/font-awesome/scss/_larger.scss",
+		"/var/www/popibay/public/pb-assets/frameworks/multipart_uploader-master/node_modules/socket.io/node_modules/redis/generate_commands.js",
+		"/var/www/popibay/app/views/Home/Forums/roar/roar/functions/helpers.php",
+		"/var/www/popibay/app/models/User.php",
+		"/var/www/popibay/vendor/symfony/console/Symfony/Component/Console/Helper/Helper.php",
+		"/var/www/popibay/app/views/Home/Forums/roar/system/helpers.php",
+		"/var/www/popibay/vendor/symfony/console/Symfony/Component/Console/Helper/HelperSet.php",
+		"/var/www/popibay/app/controllers/BaseController.php",
+		"/var/www/popibay/app/views/Home/Dashboard/collection@petmanager.blade.php",
+		"/var/www/popibay/app/views/Home/Dashboard/breedersaddmypet@petmanager.blade.php",
+		"/var/www/popibay/app/views/Home/Dashboard/breeders@petmanager.blade.php",
+		"/var/www/popibay/app/views/Home/Dashboard/pets@petmanager.blade.php",
+		"/var/www/popibay/vendor/laravel/framework/src/Illuminate/Support/helpers.php",
+		"/var/www/popibay/vendor/swiftmailer/swiftmailer/doc/help-resources.rst",
+		"/var/www/popibay/public/pb-assets/frameworks/fine-uploader-master/docs/features/handling-errors.jmd",
+		"/var/www/popibay/app/views/hello.php",
+		"/media/jobinpal/UD/hi @name i try using the pyforwarder software but",
+		"/var/www/popibay/app/views/Home/Dashboard/backup_dashboard@petmanager.blade.php",
+		"/home/jobinpal/.config/sublime-text-3/Packages/AutoFileName/autofilename.sublime-settings",
+		"/var/www/popibay/app/views/Home/Dashboard/testcodeformater.html",
+		"/home/jobinpal/.config/sublime-text-3/Packages/CodeFormatter/README.md",
+		"/var/www/popibay/swiftngplans.html",
+		"/var/www/popibay/app/views/Home/Dashboard/solve issue for fixed bar on foundation.html",
+		"/var/www/popibay/public/pb-assets/img/clp376398.jpg",
+		"/var/www/popibay/public/.htaccess",
+		"/etc/php5/cli/php.ini",
+		"/var/www/popibay/app/views/Home/Forums/DoveForums/index.php",
+		"/var/www/html/esoTalk-develop/core/config.defaults.php",
+		"/var/www/html/esoTalk-develop/core/lib/ETDatabase.class.php",
+		"/var/www/popibay/app/views/Home/Forums/esoTalk-develop/core/config.defaults.php",
+		"/var/www/popibay/app/views/Home/Forums/DoveForums/application/config/database.php",
+		"/var/www/popibay/app/views/Home/Forums/Advanced-Electron-Forum/universal_backup.php",
+		"/var/www/popibay/app/views/Home/Forums/Advanced-Electron-Forum/setup/index.php",
+		"/var/www/popibay/public/pb-assets/frameworks/github-forums-software/Advanced-Electron-Forum-master/Readme.md",
+		"/var/www/popibay/app/views/Home/Forums/Advanced-Electron-Forum/universal.php",
+		"/var/www/popibay/app/views/Home/Forums/Advanced-Electron-Forum/index.php",
+		"/var/www/popibay/public/pb-assets/frameworks/github-forums-software/Advanced-Electron-Forum-master/dbtables.php"
+	],
+	"find":
+	{
+		"height": 26.0
+	},
+	"find_in_files":
+	{
+		"height": 102.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mquestions.com",
+			"localhost/public",
+			"mquestions.com",
+			"15:46:48",
+			"05:46:48",
+			"mail",
+			"recaptcha_response_field",
+			"recaptcha_check_answer",
+			"laravel:",
+			"icon",
+			"pet-usr",
+			"pet-add-con-box",
+			"pb-gen-color",
+			"H1",
+			"h1",
+			"curl",
+			"mod_rewrite"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"localhost/mquestions/public",
+			"localhost/public"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "wget-log.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"illuminate/auth/userinterface",
+				"vendor/laravel/framework/src/Illuminate/Auth/UserInterface.php"
+			],
+			[
+				"helpe",
+				"vendor/predis/predis/lib/Predis/Helpers.php"
+			],
+			[
+				"helpers.php",
+				"vendor/predis/predis/lib/Predis/Helpers.php"
+			],
+			[
+				"helpers",
+				"app/views/Home/Forums/roar/roar/functions/helpers.php"
+			],
+			[
+				"hel",
+				"public/pb-assets/frameworks/github-forums-software/roar-master/roar/helpers.php"
+			],
+			[
+				"helper",
+				"app/views/Home/Forums/forum-master/helpers.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 314.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

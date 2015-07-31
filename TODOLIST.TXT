@@ -1,0 +1,592 @@
+Popibay development workflow.
+-----------------------------
+
+APP FUNCTIONALITIES
+-------------------
+
+Pet Market place.
+
+Pet Management.
+
+Pet Managers connect.
+
+Pet Profiling.
+
+Pet Manager account.
+
+Pet Buyers account.
+
+
+APP IDEA
+--------
+
+* Landing page
+--------------
+ |_ style content two NOT DONE
+ |_ style content three and boxes NOT DONE
+
+* User login
+------------
+ |_ login page (view) remaining some finishng styles DONE
+ |_ login controller  NOT DONE
+ |_ login model NOT DONE
+
+* User registration
+-------------------
+ |_ User registration page (view) remaining some finishng styles DONE
+ |_ User registration controller  DONE BUT NOT ALL PARTS
+ |_ User registration model DONE
+
+* Forgot password
+-----------------
+ |_ Forgot password page (view) remaining some finishng styles DONE
+ |_ Forgot password controller  DONE
+ |_ Forgot password model NOT DONE
+
+* Confirm email DONE.
+
+* Find friends (Import friends)
+-------------------------------
+ |_ find friends page (view) remaining some finishng styles DONE
+ |_ find friends controller  NOT DONE
+ |_ find friends model NOT DONE
+
+ * Reset password
+ ----------------
+ Working but i need to make the email_id a token because of feature hack...
+ ************ IMPORTANT NOT DONE ************
+
+* 404 error page NOT DONE yet.
+
+* Meta (SEO) information added. DONE FOR COMING SOON PAGE.
+
+* Terms and conditions page. DONE (No content added yet).
+
+* media icons page DONE not relevant.
+
+* work on app idea controllers... WORKING
+
+OPTIONAL
+--------
+
+* recaptha
+
+* Facebook/Twitter/Google login
+
+* Remember me
+
+REAL IDEA
+---------
+
+* Header general search.
+
+* Message page.
+
+* Pets page (Pet managers pets). 
+
+* Add pets page.
+
+* Market page.
+
+* Reports page. NOT DONE
+
+* Settings page
+
+* Account page.
+
+* Logout page.
+
+* Petstore front page.
+
+
+POBIBAY ADMIN
+-------------
+
+* admin login
+
+ADMIN DASHBOARD
+---------------
+
+admin -- login DONE
+admin -- dasboard DONE 
+  | 
+   -----> Controllers/logic and model not done.
+
+* All users DONE
+
+* Pet sellers DONE
+
+* Pet buyers DONE
+
+* Online users DONE
+
+* Added pets (Market) NOT DONE 
+
+* Pending photos NOT DONE
+
+* Message users NOT DONE
+
+* Support ticket NOT DONE
+
+
+
+POBIBAY SHOP
+------------
+NOT DONE YET
+
+
+POPIBAY EMAILS
+--------------
+social@popibay.com DONE
+info@popipay.com   DONE
+business@popipay.com
+security@popibay.com 
+payments@popibay.com
+contact@popibay.com
+promotions@popibay.com
+notifications@popibay.com
+
+POPIBAY PAYMENT GATEWAY
+-----------------------
+2checkout
+
+POPIBAY SELLER PAYMENTS
+-----------------------
+paypal
+western union
+bank wire transfer
+payoneer
+
+SITEMAP
+-------
+
+
+
+
+
+POPIBAY FILTERS PAGE
+--------------------
+Message page
+
+Pets page DONE
+
+Add pets page. DONE
+
+Market page. DONE
+
+Reports page DONE
+
+Settings page DONE
+
+Account page DONE
+
+Logout page DONE
+
+Petstore DONE
+
+Note: No filter for pet store front...
+
+
+
+POPIBAY EMAIL TEMPLATE
+----------------------
+views
+|
+emails 
+
+welcome email
+forgot password email
+password reset email notification.
+
+POPIBAY ROBOTS.TXT SEARCH PROTECTION
+------------------------------------
+
+
+Laravel.io forum answer
+-----------------------
+here is a good email verification tutorial you can implement to make users verify their emails before being able to use your site
+http://bensmith.io/email-verification-with-laravel
+P.S. - you will then be able to access the users number of logins two ways. 1) through a User Object
+$user = User::find($userId);
+$no_of_logins = $user->no_of_logins;
+2) or directly with the Auth user
+$no_of_logins = Auth::user()->no_of_logins;
+
+
+
+
+
+SCALING THE APPLICATION THE APLICATION WILL BE STARTED WITH ONLY CLASSIFIED ADS
+-------------------------------------------------------------------------------
+
+Petads page
+-----------
+Shows a list of published ads by the pet sellers.
+
+design the header and the footer.
+
+design the content.
+
+list the classified ads from the database.
+
+each ads clicked will goto the more pet ads info page.
+
+..........................................................................................
+
+Work on log-in link at the header if the user is guest it will show log-in but if the user is member it will show my pet ads.
+
+Work on post an ad page with the orange button.
+
+<input type="hidden" value="{{ $categories }}" name="categories" />
+<input type="hidden" value="{{ $location }}" name="location" />
+<input type="hidden" value="{{ $area }}" name="area" />
+
+
+BACK UP PET ADS HEADER/FOOTER TEMPLATE 
+--------------------------------------
+
+@section('sidebar')
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="popibay">
+    <meta name="description" content="Popibay is an online market, Pet management, Pet e-commerce that manages the Pet business from the Pet manager to the Pet buyer, Also it manages the life cycle of the Pet from the puppy stage to the stage of being sold out to the direct buyers, which notifies it buyers about each and every process of the puppy.">
+    <meta name="keywords" content="popibay, dogs, puppies, pet business, e-commerce, puppies, pet managers, ebay, pet bay, olx, trade stable, jumia, konga, Buy, buy, sell, manage, escrow, escrow services,  services, sales, auction, facebook, twitter, google plus, instagram, google, alibaba, amazon, pets, dogs4sale, dogs for sale, security dogs,
+    Breeder, breeders, Dog Management, Dog Market place, admire, Pet Profiling, Pet Market place">
+
+    <title> Popibay || Posting your ad on Popibay.com </title>
+
+    <link rel="shortcut icon" href="http://localhost:8000/pb-assets/img/favicon/popibay_favicon_70.png">
+
+    <!-- Fontawesome -->
+    <link href="http://localhost:8000/pb-assets/frameworks/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Popibay -->
+    <link href="http://localhost:8000/pb-assets/css/pb.css" rel="stylesheet">
+
+    <!-- JCarousel styles -->
+    <link href="http://localhost:8000/pb-assets/css/c-styles.css" rel="stylesheet">
+
+    <!-- slick theme -->
+    <link href="http://localhost:8000/pb-assets/css/slick-theme.css" rel="stylesheet">
+
+    <!-- slick css -->
+    <link href="http://localhost:8000/pb-assets/css/slick.css" rel="stylesheet">
+
+    <!-- icheck css -->
+    <link href="http://localhost:8000/pb-assets/css/skins/all.css" rel="stylesheet">
+
+    <!-- zino css silver theme -->
+    <link href="http://localhost:8000/pb-assets/css/zino_css_themes/silver/zino.core.css" rel="stylesheet">
+
+     <!-- zino css silver theme -->
+    <link href="http://localhost:8000/pb-assets/css/zino_css_themes/silver/zino.selectbox.css" rel="stylesheet">
+
+    <!-- hover css -->
+    <link href="http://localhost:8000/pb-assets/css/hover.csss" rel="stylesheet">
+
+    <!-- dropzone css -->
+    <link href="http://localhost:8000/pb-assets/css/dropzone.css">
+
+    <!-- Foundation -->
+    <link rel="stylesheet" href="http://localhost:8000/pb-assets/frameworks/foundation/css/foundation.min.css" />
+
+    <!-- Modernizr -->
+    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/vendor/modernizr.js"></script>
+
+    <!-- Google+ login -->
+    <script src="https://apis.google.com/js/client:platform.js" async defer></script>
+
+
+
+  </head>
+  <body>
+    <!-- when there is no javascript  -->
+    <noscript>
+    <div class="pb-no-js">
+      <div class="row">
+        <!-- <div class="small-2 columns">
+          <i class="fa fa-facebook fa-5x text-center"></i>
+        </div> -->
+        <div class="small-12 columns">
+          <h4 class="show-for-medium-up text-center" id="pb-no-js-txt-err"><i class="fa fa-warning fa-lg"></i> Opps!!! It looks like your javascript is off. Please keep it on, Popibay needs it. </h4>
+          <h4 class="show-for-small-only text-justify" id="pb-no-js-txt-err"><i class="fa fa-warning fa-lg"></i> Opps!!! It looks like your javascript is off. Please keep it on, Popibay needs it. </h4>
+        </div>
+      </div>
+    </div>
+    </noscript>
+    <!-- /end when there is no javascript  -->
+    <div class="header-petads">
+      <div class="row">
+        <div class="small-12 medium-12 large-2 columns pb-home-header">
+          <a href="/">
+          <img class="go-down-a-bit-10 show-for-medium-up pet-ad-header" src="http://localhost:8000/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
+          <img class="go-down-a-bit-30 show-for-small-only" src="http://localhost:8000/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
+          </a>
+        </div>
+        <div class="small-12 medium-12 large-6 columns">
+          <div class="row">
+            <div class="large-12 columns">
+              <div class="row collapse go-down-a-bit-30">
+                <div class="small-2 columns">
+                  <a href="/ourads" class="button postfix our-ads-button-style">Our ads</a>
+                </div>
+                <div class="small-7 columns">
+                  <input type="text" placeholder="Search for pet ads." class="search-input-style">
+                </div>
+                <div class="small-3 columns">
+                  <button class="button small search-button-style" style="padding-top: 7px;
+                  padding-right: 30px;
+                  padding-bottom: 11px;
+                  padding-left: 1.75rem;
+                  font-size: 0.8125rem;"><i class="fa fa-search fa-lg"></i></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="go-down-a-bit-30 small-12 medium-12 large-4 columns">
+          <ul class="inline-list">
+            <?php
+              /*
+              * Check if the user is a guest or a member
+              *
+              */
+
+              if ( Auth::check() == true ) {
+                echo '<li><a href="/dashboard"><button class="button tiny pet-ad-member-header-button-two bolder-text"> <i class="fa fa-tags"></i> My pet ads.</button></a></li>';
+              }else{
+                echo '<li><a href="/login"><h6 class="white-text"><i class="fa fa-key fa-lg"></i> Log-in</h6></a></li>';
+              }
+            ?>
+            <li><h6 class="white-text">|</h6></li>
+            <li><a href="/petads"><button class="button tiny pb-button-two-sides-all-orange ad-post-button-text"> Post a pet ad</button></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    @yield('content')
+    
+    <div class="inline-footer">
+      <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+          <ul class="inline-list" id="inline-footer-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="about">About</a></li>
+            <li><a href="blog">Blog</a></li>
+            <li><a href="invest">Invest</a></li>
+            <li><a href="faq">FAQ / Help</a></li>
+            <li><a href="contact">Contact</a></li> 
+          </ul>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+        <ul class="inline-list" id="inline-footer-links">
+            <li><a target="_blank" href="http://facebook.com/popibay"><i class="fa fa-facebook fa-lg"></i></a></li>
+            <li><a target="_blank" href="http://twitter.com/@popibay"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li><a target="_blank" href="http://instagram.com/@popibay"><i class="fa fa-instagram fa-lg"></i></a></li>
+            <li><a target="_blank" href="http://plus.google.com/popibay"><i class="fa fa-google-plus fa-lg"></i></a></li>
+        </ul>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="small-12 medium-12 large-12 columns">
+          <h6 class="text-center grey-color-no-hover font-exo2light">Copyright <i class="fa fa-copyright"></i> 2015 Popibay.com  | All rights reserved | A Jobinpal Enterprises product.</h6>
+        </div>
+      </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://localhost:8000/pb-assets/js/jquery.js"></script>
+
+    <!-- dropzone js -->
+    <script src="http://localhost:8000/pb-assets/js/dropzone.js"></script>
+
+    <!-- foundation js -->
+    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation.min.js"></script>
+
+    <!-- tooltip js -->
+    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.tooltip.js"></script>
+
+    <!-- reveal js -->
+    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.reveal.js"></script>
+
+    <!-- equalizer js -->
+    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.equalizer.js"></script>
+
+    <!-- abide js -->
+    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.abide.js"></script>
+
+    <!-- orbit js -->
+    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.orbit.js"></script>
+
+    <!-- jcarousel js -->
+    <script src="http://localhost:8000/pb-assets/js/jcarousel.jss"></script>
+
+    <!-- slick js -->
+    <script src="http://localhost:8000/pb-assets/js/slick.js"></script>
+
+    <!-- icheck js -->
+    <script src="http://localhost:8000/pb-assets/js/icheck.min.js"></script>
+
+    <!-- scroll_to_fixed js -->
+    <script src="http://localhost:8000/pb-assets/js/jquery-scrolltofixed-min.js"></script>
+
+    <!-- jQuery populate plugin js -->
+    <script src="http://localhost:8000/pb-assets/js/jquery.populate.min.js"></script>
+
+    <!-- zenui select multiple plugin js -->
+    <script src="http://localhost:8000/pb-assets/js/zino.selectbox.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- /*<script src="http://localhost:8000/pb-assets/frameworks/bootstrap/dist/js/bootstrap.min.js"></script>*/ -->
+
+    <script>
+      $(document).foundation();
+      $('.reg-form-err-exit').click(function(){
+        /*$('#form-err').removeClass( "reg-form-err" );
+        $('#form-err').addClass( "reg-form-err-hide" );*/
+        $('#form-err').css( "display", "none" );
+        });
+
+      var form_err = document.getElementById('form-err');
+      setTimeout(function(){
+        $('#form-err').hide();
+      },10000);
+      /*
+      Note that this code for hiding the form error 
+        box is not working please look @ it later...
+      */
+
+      /* CHOOSE ACCOUNT SWITCHES CONTROL */
+
+      /* This is for the pet manager click */
+      $("#pet-manager-switch").click(function(){
+      var pmValue = $('#choose-account-pm')
+      var isOn = $('#pet-manager-switch').is(':checked');
+      if ( isOn == true ) {
+          pmValue.val('PM');
+          //alert('it is true');
+      }else{
+        pmValue.val(null);
+        //alert('is null');
+      }
+      });
+
+      /* This is for the pet buyer click */
+      $("#pet-buyer-switch").click(function(){
+      var pbValue = $('#choose-account-pb');
+      var isOn = $('#pet-buyer-switch').is(':checked');
+      if ( isOn == true ) {
+          pbValue.val('PB');
+          //alert('it is true');
+      }else{
+        pbValue.val(null);
+        //alert('is null');
+      }
+      });
+
+      $('#choose-account-form').submit(function( event ){
+        //var e = event.preventDefault();
+        pmValue = $('#choose-account-pm').val();
+        pbValue = $('#choose-account-pb').val();
+        pmValue_len = pmValue.length;
+        pbValue_len = pbValue.length;
+        
+        if ( pmValue == 0  && pbValue == 0) {
+          alert('Choose either Petmanager or Petbuyer to continue.');
+          event.preventDefault();
+        };
+
+        if ( pmValue_len == 2  && pbValue_len == 2 ) {
+          alert('Choose either Petmanager or Petbuyer to continue. The two options cannot be choosed.');
+          event.preventDefault();
+        };
+        
+      });
+
+
+      $('.pet-shop-products').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 4,
+        prevArrow:'<button type="button" class="slick-prev">Prev</button>',
+        nextArrow:'<button type="button" class="slick-next">Next</button>',
+        responsive: [
+        {
+          breakpoint: 768,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 3
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            arrows: true,
+            centerMode: true,
+            centerPadding: '40px',
+            slidesToShow: 1
+          }
+        }
+        ]
+      });
+
+
+      $('input').iCheck({
+      checkboxClass: 'icheckbox_square-blue',
+      radioClass: 'icheckbox_square-blue',
+      increaseArea: '20%' // optional
+    });
+
+      /* scroll to fixed plugin iniciation */
+      $('.search-ourads-options').scrollToFixed({
+        marginTop: $('.header-petads').outerHeight(true) + 5
+      });
+
+      dashboard_menu = $('.dash-menu');
+
+            dashboard_menu.scrollToFixed({
+                marginTop: $('.header-petads').outerHeight(true) + 20
+            });
+
+      ad_contact_box = $('.ad-contact-box');
+
+            ad_contact_box.scrollToFixed({
+                marginTop: $('.header-petads').outerHeight(true) + 20
+            });
+
+      our_ads_category_box = $('.our-ads-category-box');
+
+            /*our_ads_category_box.scrollToFixed({
+                marginTop: $('.header-petads').outerHeight(true) + 100
+            });*/
+
+      
+      var jssor_slider1 = new $JssorSlider$('slider1_container');
+
+    </script>
+  </body>
+</html>
+@show
+
+
+
+
+
+
+
+
+
+
+
+
+

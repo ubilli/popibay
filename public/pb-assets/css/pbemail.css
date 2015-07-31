@@ -1,0 +1,33 @@
+/*  Montserrat_Alternates font */
+@font-face {
+  font-family: 'Montserrat_Alternates';
+  src: url('http://popibay.com/pb-assets/fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  Gudea font */
+@font-face {
+  font-family: 'Gudea';
+  src: url('http://popibay.com/pb-assets/fonts/Gudea/Gudea-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+h3#welcome_user {
+font-family: Montserrat_Alternates;
+}
+
+p{
+	font-family: Gudea;
+}
+
+h3#welcome_user {
+font-family: Montserrat_Alternates;
+color: #cccc33;
+}
+
+table.social {
+/* padding: 15px; */
+background-color: #F8F87E !important;
+}

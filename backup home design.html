@@ -1,0 +1,301 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>Pobipay @ Pets/Dogs online auctioning site.</title>
+
+    <!-- Bootstrap -->
+    <!-- use blade for the views for cleaner coding... -->
+    {{ HTML::style('pb-assets/frameworks/bootstrap3.2/dist/css/bootstrap.min.css') }}
+
+    <!-- popibay css -->
+    {{ HTML::style('pb-assets/css/popibay.css') }}
+
+    <!-- jsssor slides css -->
+    {{ HTML::style('pb-assets/css/jsssor-slides.css') }}
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <noscript>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="pb-offjs-alert">
+              <div class="container">
+                <div class="row">
+                  <div class="pb-offjs-alert-cont">
+                    <div class="col-md-1">
+                      <div id="pb-offjs-alert-cont-img">
+                        <!-- The image itself -->
+                      {{ HTML::image('/pb-assets/img/warning4.png','Alert error icon',array('id'=>'pb-alert-err-nojs-icon','width'=>'100px','height'=>'100px')) }}
+                      </div>
+                    </div>
+
+                    <!-- <div class="col-md-1">
+                      
+                    </div> -->
+
+                    <div class="col-md-10">
+                       <div class="col-md-1">
+                       </div>
+
+                       <div class="col-md-9">
+                        <h1 id="alert-err-msg">Opps !!! please turn on your javascript.</h1>
+                       </div>
+
+                       <!-- <div class="col-md-1">
+                       </div> -->
+                    </div>
+
+                    <div class="col-md-1">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+     </div>
+     <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="pb-alert-err-layer">
+            </div>
+          </div>
+        </div>
+     </div>
+    </noscript>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- popinbay header -->
+          <div id="pb-header">
+           <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div id="pb-logo-left">
+                  <img class="img-responsive" alt="Responsive image" src="http://localhost/laravel4/public/pb-assets/img/popibaylogo1.png" height="70px" width="270px">
+                </div>
+              </div>
+
+              <div class="col-md-6">
+                <div id="pb-search-box">
+                    <div id="pb-search-box-skeleton">
+                      <div class="btn-group">
+                        <select class="pb-all-select" id="pb-hm-hd-cat">
+                          <option class="pb-all-options">category1</option>
+                          <option class="pb-all-options">category1</option>
+                          <option class="pb-all-options">category1</option>
+                          <option class="pb-all-options">category1</option>
+                        </select>
+                        <input class="pb-all-inputs" type="search" placeholder="Search for pets auction sales" id="pb-hm-hd-in-search">
+                        <button class="pb-all-buttons" type="submit" id="pb-hm-hd-but">Search</button>
+                      </div>
+                    </div>
+                </div>                
+              </div>
+
+              <div class="col-md-2">
+                <div id="pb-login-other-links">
+                  <div id="pb-login-other-links-skeleton">
+                    <ul class="pb-all-ul">
+                      <li><a href="login" class="pb-all-a-tag">Login</a></li>
+                      <li class="pb-all-li">or</li>
+                      <li><a href="signup" class="pb-all-a-tag">Sign-up</a></li>
+                    </ul>
+                  </div>
+                </div>                
+              </div>
+
+              
+            </div>
+          </div> 
+          </div>
+        </div>  
+
+        
+        <!-- popinbay header ends-->       
+      </div>
+
+    </div>
+
+ <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <!-- ads or some box -->
+          <div id="pb-hm-cont-ads-left">
+             ads..
+          </div>
+        </div>
+
+        <div class="col-md-8">
+          <div id="pb-hm-cont-infograhics">
+            <div id="pb-hm-cont-infograhics-box">
+            
+
+
+    <!-- Jssor Slider Begin -->
+    <!-- You can move inline styles to css file or css block. -->
+    <div id="slider1_container" style="position: absolute; top: 80px;
+left: 90px; width: 600px; height: 234.14634146341461px; overflow: hidden;">
+
+        <!-- Loading Screen -->
+        <div id="jssorloading" u="loading" style="position: absolute; top: 0px; left: 0px;">
+            <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;
+                background-color: #000000; top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+            <div style="position: absolute; display: block; background: url(../img/loading.gif) no-repeat center center;
+                top: 0px; left: 0px;width: 100%;height:100%;">
+            </div>
+        </div>
+
+        <!-- Slides Container -->
+        <div u="slides" style="cursor: move; position: absolute; left: 0px; top: 0px; width: 600px; height: 234.14634146341461px; overflow: hidden;">
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/02.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/03.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/04.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/05.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/06.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/07.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/08.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/09.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/10.jpg','null',array('u'=>'image')) }}
+            </div>
+            <div>
+                {{ HTML::image('pb-assets/frameworks/jquery_slider1/img/landscape/11.jpg','null',array('u'=>'image')) }}
+            </div>
+        </div>
+
+        <!-- Bullet Navigator Skin Begin -->        
+        <!-- bullet navigator container -->
+        <div u="navigator" class="jssorb05" style="position: absolute; bottom: 16px; right: 6px;">
+            <!-- bullet navigator item prototype -->
+            <div u="prototype" style="POSITION: absolute; WIDTH: 16px; HEIGHT: 16px;"></div>
+        </div>
+        <!-- Bullet Navigator Skin End -->
+        <!-- Arrow Navigator Skin Begin -->
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora12l" style="width: 30px; height: 46px; top: 123px; left: 0px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora12r" style="width: 30px; height: 46px; top: 123px; right: 0px">
+        </span>
+        <!-- Arrow Navigator Skin End -->
+        <a style="display: none" href="http://www.jssor.com">javascript</a>
+    </div>
+    <!-- Jssor Slider End -->
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-2">
+          <!-- ads or some box -->
+          <div id="pb-hm-cont-ads-right">
+              ads..
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div id="pb-hm-cont-tab-auctioned-or-sold-pets">
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+              <ul class="nav nav-tabs">
+                <li class="active"><a href="#">Product one</a></li>
+                <li><a href="#">Product two</a></li>
+                <li><a href="#">Product three</a></li>
+                <li><a href="#">Product four</a></li>
+                <li><a href="#">Product five</a></li>
+                <li><a href="#">Product six</a></li>
+                <li><a href="#">Product seven</a></li>
+                <li><a href="#">Product eight</a></li>
+              </ul>
+            </div>
+            <div class="col-md-1">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="pb-hm-cont-pets-autioned-forsale-products">
+          </div>
+        </div>
+      </div>
+    </div>
+<!-- Footer -->
+    <div class="container-fluid">
+      <div class="row">
+        <div id="pb-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="pb-footer-contents">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  
+    {{ HTML::script('pb-assets/js/jquery.js') }}
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    
+    {{ HTML::script('pb-assets/frameworks/bootstrap3.2/dist/js/bootstrap.min.js') }}
+
+    <!-- the popibay main js file for the homepage... -->
+    {{ HTML::script('pb-assets/js/popibay.js') }}
+
+    <!-- the popibay  tab design for the homepage... -->
+    {{ HTML::script('pb-assets/frameworks/bootstrap3.2/js/tab.js') }}
+
+    <!-- the popibay main js file for the homepage... -->
+    {{ HTML::script('pb-assets/frameworks/jquery_slider1/js/jssor.slider.min.js') }}
+  </body>
+</html>
+
+
+

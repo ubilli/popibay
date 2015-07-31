@@ -1,0 +1,455 @@
+.jcarousel-container {
+	float:left;
+	display: block;
+	position: relative;
+	margin:0;
+	padding:0;
+}
+
+.jcarousel-container-vertical {
+	width:  962px;
+	height: 535px;
+}
+
+.jcarousel-clip-vertical {
+	height: 535px;
+}
+
+.jcarousel-item {
+	height: 60px;
+	overflow: hidden;
+	position: relative;
+	display: block;
+	z-index: 1;
+}
+
+#newslist ul li {
+	width:  928px;
+	background: none;
+	margin: 2px 0 18px 2px;
+	background-color: #FFF;
+	-moz-box-shadow: 0px 1px 2px #9f9f9f;
+	-webkit-box-shadow: 0px 1px 2px #9f9f9f;
+	box-shadow: 0px 1px 2px #9f9f9f;
+	padding: 15px;
+	display: block;
+	overflow: hidden;
+}
+
+#newslist p {
+	margin: 0;
+}
+
+#newslist h4 {
+	margin-bottom: 3px;
+	line-height: 1;
+}
+
+#newslist h4 span {
+	font-style: italic;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	color: #565656;
+	padding-left: 5px;
+}
+
+#news h2 {
+	float: left;
+	margin-top: 10px;
+}
+
+#scroll {
+	overflow: hidden;
+	width: 80px;
+	height: 30px;
+	margin: 20px auto;
+	padding: 2px;
+}
+
+#newslist-next {
+	cursor: pointer;
+	top:0px;
+}
+
+#newslist-prev {
+	cursor: pointer;
+	outline: 0;
+}
+
+a.jbutton, a.jbutton:link, a.jbutton:visited {
+	display: block;
+	padding: 0;
+	height: 30px;
+	width: 30px;
+	background: transparent url(style/images/gallery-arrows.jpg) no-repeat;
+	-moz-box-shadow: 0px 1px 2px #888;
+	-webkit-box-shadow: 0px 1px 2px #888;
+	box-shadow: 0px 1px 2px #888;
+	text-indent: -99999px;
+}
+
+a#newslist-prev.jbutton, a#prev.jbutton {
+	background-position: top left;
+	float: left;
+	height: 30px;
+	width: 30px;
+}
+
+a#newslist-next.jbutton, a#next.jbutton {
+	background-position: top right;
+	float: right;
+	height: 30px;
+	width: 30px;
+}
+
+a#newslist-prev.jbutton:hover {
+	background-position: left -30px;
+	text-decoration: none;
+}
+
+a#newslist-next.jbutton:hover {
+	background-position: right -30px;
+	text-decoration: none;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	16.	CONTACT
+/*-----------------------------------------------------------------------------------*/
+
+#wrapper ul.info li {
+	background: none;
+	padding: 0 0 0 35px;
+	margin-bottom: 15px;
+}
+
+#wrapper ul.info li img {
+	vertical-align: top;
+}
+
+#wrapper ul.info li.home {
+	background: transparent url(style/images/icon-home.png) no-repeat 0 2px;
+}
+
+#wrapper ul.info li.phone {
+	background: transparent url(style/images/icon-phone.png) no-repeat 0 2px;
+}
+
+#wrapper ul.info li.email {
+	background: transparent url(style/images/icon-email.png) no-repeat 0 4px;
+}
+
+#twitter-wrapper {
+	float: none;
+	clear: both;
+	margin: 0 0 60px 0;
+	position: relative;
+}
+
+#twitter {
+	font-style: italic;
+	font-size:12px;
+	padding: 10px 0;
+	background: #e8e8e8 url(style/images/twitter.png) no-repeat 20px center;
+	min-height: 28px;
+}
+
+#twitter ul {
+	padding: 0;
+	margin: 0;
+}
+
+#twitter ul li {
+	background: none;
+	padding: 5px 10px 5px 80px;
+	line-height: 16px;
+}
+
+#twitter ul li a {
+	color: #5d8ba6;
+	text-decoration: none;
+}
+
+#twitter ul li a:hover {
+	text-decoration: underline;
+}
+
+.username {
+	background: transparent url(style/images/twitter-arrow.png) no-repeat center top;
+	position: absolute;
+	padding: 15px 0 0 0;
+	right: 0;
+	bottom:-35px;
+	font-size: 12px;
+}
+
+.username a {
+	color: #5d8ba6;
+}
+
+
+
+#wrapper .contact-social ul {
+	margin: 20px 0 0 0;
+}
+
+#wrapper .contact-social ul li {
+	background: none;
+	float: left;
+	padding: 0;
+	margin: 0 10px 0 0;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	17.	TOGGLE & TABS
+/*-----------------------------------------------------------------------------------*/
+
+.toggle {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.toggle-wrapper {
+	padding-bottom:5px;
+}
+
+h2.trigger {
+	width:100%;
+	clear:both;
+	font-size: 20px;
+	margin:0px;
+	display: block;
+	color: #1f1f1f;
+	cursor: pointer;
+}
+
+h2.trigger:hover,h2.trigger.active:hover {
+	color: #5d8ba6;
+}
+
+h2.trigger.active {
+	color: #1f1f1f;
+}
+
+.togglebox {
+	width:920px;
+	height: auto;
+	background: #e8e8e8;
+	overflow: hidden;
+	margin: 10px 0;
+}
+
+.togglebox div {
+	padding: 20px;
+}
+
+.togglebox p {
+	line-height: 22px;
+}
+
+.togglebox p {
+	line-height: 22px;
+}
+
+.tabbed-content {
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+
+#wrapper ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	width: 100%;
+}
+
+#wrapper ul.tabs li {
+	float: left;
+	margin: 0 7px 0 0;
+	padding: 0px;
+	background: none;
+	overflow: hidden;
+	position: relative;
+	font-family: 'Puritan20Normal';
+}
+
+#wrapper ul.tabs li a {
+	text-decoration: none;
+	display: block;
+	font-size: 15px;
+	line-height: 35px;
+	padding: 0 15px 3px 15px;
+	height: 35px;
+	background-color: #cecece;
+	color: #565656;
+}
+
+#wrapper ul.tabs li a:hover {
+	color: #5d8ba6;
+}
+
+#wrapper ul.tabs li.active a {
+	background-color: #e8e8e8;
+	position: relative;
+	z-index: 999;
+	color: #1f1f1f;
+}
+
+#wrapper ul.tabs li.active a, #wrapper ul.tabs li.active a:hover {
+	position: relative;
+	border-bottom: black;
+}
+
+.tab_container {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: -3px;
+	background-color: #e8e8e8;
+	z-index: 999;
+	position: relative;
+}
+
+.tab_content {
+	padding: 20px 20px 0 20px;
+}
+
+/*-----------------------------------------------------------------------------------*/
+/*	18.	CAROUSEL
+/*-----------------------------------------------------------------------------------*/
+
+#wrapper .d-carousel ul li {
+	background: none;
+	background-color: #FFF;
+	-moz-box-shadow: 0px 1px 2px #9f9f9f;
+	-webkit-box-shadow: 0px 1px 2px #9f9f9f;
+	box-shadow: 0px 1px 2px #9f9f9f;
+	padding: 15px;
+	width: 175px;
+}
+
+.jcarousel-direction-rtl {
+	direction: rtl;
+}
+
+.d-carousel h4 {
+	margin: 5px 0 5px 0;
+}
+
+.d-carousel .jcarousel-container {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+
+.d-carousel .jcarousel-item {
+	width: 190px;
+	height: 290px;
+}
+
+.d-carousel .jcarousel-container-horizontal {
+	width: 870px;
+	height: 325px;
+	padding: 0 45px;
+}
+
+.d-carousel.sgrid .jcarousel-container {
+	display: block;
+	overflow: hidden;
+	margin-bottom: 20px;
+	height: 156px;
+}
+
+.d-carousel.sgrid .jcarousel-clip-horizontal {
+	width:  870px;
+	height: 156px;
+}
+
+.d-carousel.sgrid .jcarousel-item {
+	width: 190px;
+	height: 120px;
+}
+
+.d-carousel .jcarousel-item-horizontal {
+	margin-left: 3px;
+	margin-bottom: 3px;
+	margin-top: 3px;
+	margin-right: 11px;
+}
+
+.d-carousel .jcarousel-next-horizontal {
+	position: absolute;
+	top: 149px;
+	right: 0;
+	margin-right: 3px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background: transparent url(style/images/blog-arrows.jpg) no-repeat top right;
+	-moz-box-shadow: 0px 1px 2px #888;
+	-webkit-box-shadow: 0px 1px 2px #888;
+	box-shadow: 0px 1px 2px #888;
+}
+
+.d-carousel.sgrid .jcarousel-next-horizontal {
+	position: absolute;
+	top: 60px;
+	right: 0;
+	margin-right: 3px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background: transparent url(style/images/blog-arrows.jpg) no-repeat top right;
+	-moz-box-shadow: 0px 1px 2px #888;
+	-webkit-box-shadow: 0px 1px 2px #888;
+	box-shadow: 0px 1px 2px #888;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-next-horizontal {
+	left: 5px;
+	right: auto;
+	background-image: url(style/images/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-next-horizontal:hover {
+	background-position: bottom right;
+}
+
+.d-carousel .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 149px;
+	left: 0;
+	margin-left: 3px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background: transparent url(style/images/blog-arrows.jpg) no-repeat top left;
+	-moz-box-shadow: 0px 1px 2px #888;
+	-webkit-box-shadow: 0px 1px 2px #888;
+	box-shadow: 0px 1px 2px #888;
+}
+
+.d-carousel.sgrid .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 60px;
+	left: 0;
+	margin-left: 3px;
+	width: 25px;
+	height: 25px;
+	cursor: pointer;
+	background: gray url(style/images/blog-arrows.jpg) no-repeat top left;
+	-moz-box-shadow: 0px 1px 2px #888;
+	-webkit-box-shadow: 0px 1px 2px #888;
+	box-shadow: 0px 1px 2px #888;
+}
+
+.d-carousel .jcarousel-direction-rtl .jcarousel-prev-horizontal {
+	left: auto;
+	right: 5px;
+	background-image: url(style/images/blog-arrows.jpg);
+}
+
+.d-carousel .jcarousel-prev-horizontal:hover {
+	background-position: bottom left;
+}

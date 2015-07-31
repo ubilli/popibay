@@ -1,0 +1,29 @@
+{
+    "name": "atrakeur/forum",
+    "description": "A complete forum package designed for integration in any website build with laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Atrakeur",
+            "email": "atrakeur@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.2.*"
+    },
+    "require-dev": {
+        "orchestra/testbench": "2.2.*",
+        "mockery/mockery": "0.9.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "tests"
+        ],
+        "psr-0": {
+            "Atrakeur\\Forum\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
