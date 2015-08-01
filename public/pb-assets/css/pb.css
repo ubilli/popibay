@@ -6,7 +6,7 @@
 /*   By: root <root@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/11/03 14:48:09 by root              #+#    #+#             */
-/*   Updated: 2015/07/30 18:49:55 by root             ###   ########.fr       */
+/*   Updated: 2015/08/01 06:02:33 by root             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -821,7 +821,7 @@ padding:10px;
 .content-three {
 width: 100%;
 min-height: 500px;
-background: url('http://localhost:8000/pb-assets/img/content-images-box/moving_dogs.jpg');
+background: url('http://popibay.com/pb-assets/img/content-images-box/moving_dogs.jpg');
 background-size: cover;
 padding: 10px;
 border-top: rgb(251, 176, 59) 5px solid;
@@ -2702,7 +2702,7 @@ width: 100px;
 }
 
 .content-one-small {
-background: url('http://localhost:8000/pb-assets/img/content-images-box/mob_background.jpg');
+background: url('http://popibay.com/pb-assets/img/content-images-box/mob_background.jpg');
 background-size: cover;
 padding: 10px;
 }
