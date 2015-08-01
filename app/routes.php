@@ -120,8 +120,11 @@ Route::get('mediaicons', function()
 Route::get('test', function()
 {
 	
-	print_r(Session::all());
-
+	echo $url = parse_url(getenv("CLEARDB_DATABASE_URL")). "</br>";
+	echo $host = $url["host"]. "</br>";
+	echo $username = $url["user"]. "</br>";       
+	echo $password = $url["pass"]. "</br>"; 
+	echo $database = substr($url["path"], 1). "</br>"; 
 });
 /* /end to test plugins */
 
