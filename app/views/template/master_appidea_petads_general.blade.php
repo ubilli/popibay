@@ -12,47 +12,47 @@
 
     <title> Popibay || Posting your ad on Popibay.com </title>
 
-    <link rel="shortcut icon" href="http://localhost:8000/pb-assets/img/favicon/popibay_favicon_70.png">
+    <link rel="shortcut icon" href="http://popibay.com/pb-assets/img/favicon/popibay_favicon_70.png">
 
     <!-- Fontawesome -->
-    <link href="http://localhost:8000/pb-assets/frameworks/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/frameworks/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 
     <!-- Popibay -->
-    <link href="http://localhost:8000/pb-assets/css/pb.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/pb.css" rel="stylesheet">
 
     <!-- JCarousel styles -->
-    <link href="http://localhost:8000/pb-assets/css/c-styles.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/c-styles.css" rel="stylesheet">
 
     <!-- slick theme -->
-    <link href="http://localhost:8000/pb-assets/css/slick-theme.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/slick-theme.css" rel="stylesheet">
 
     <!-- slick css -->
-    <link href="http://localhost:8000/pb-assets/css/slick.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/slick.css" rel="stylesheet">
 
     <!-- icheck css -->
-    <link href="http://localhost:8000/pb-assets/css/skins/all.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/skins/all.css" rel="stylesheet">
 
     <!-- zino css silver theme -->
-    <link href="http://localhost:8000/pb-assets/css/zino_css_themes/silver/zino.core.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/zino_css_themes/silver/zino.core.css" rel="stylesheet">
 
      <!-- zino css silver theme -->
-    <link href="http://localhost:8000/pb-assets/css/zino_css_themes/silver/zino.selectbox.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/zino_css_themes/silver/zino.selectbox.css" rel="stylesheet">
 
     <!-- hover css -->
-    <link href="http://localhost:8000/pb-assets/css/hover.csss" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/hover.csss" rel="stylesheet">
 
     <!-- light slider css -->
-    <link href="http://localhost:8000/pb-assets/css/lightslider.min.css" rel="stylesheet">
+    <link href="http://popibay.com/pb-assets/css/lightslider.min.css" rel="stylesheet">
 
 
     <!-- Foundation -->
-    <link rel="stylesheet" href="http://localhost:8000/pb-assets/frameworks/foundation/css/foundation.min.css" />
+    <link rel="stylesheet" href="http://popibay.com/pb-assets/frameworks/foundation/css/foundation.min.css" />
 
     {{-- Dropzone css --}}
-    <link rel="stylesheet" href="http://localhost:8000/pb-assets/css/dropzone.css" />
+    <link rel="stylesheet" href="http://popibay.com/pb-assets/css/dropzone.css" />
 
     <!-- Modernizr -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/vendor/modernizr.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/vendor/modernizr.js"></script>
 
     <!-- Google+ login -->
     <script src="https://apis.google.com/js/client:platform.js" async defer></script>
@@ -70,7 +70,7 @@
 
             <section class="middle tab-bar-section">
               <a href="/">
-              <img class="res-pb-logo" src="http://localhost:8000/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
+              <img class="res-pb-logo" src="http://popibay.com/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
               </a>
             </section>
           </nav>
@@ -112,8 +112,8 @@
       <div class="row">
         <div class="small-12 medium-12 large-2 columns pb-home-header">
           <a href="/">
-          <img class="go-down-a-bit-10 show-for-medium-up pet-ad-header" src="http://localhost:8000/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
-          <img class="go-down-a-bit-30 show-for-small-only" src="http://localhost:8000/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
+          <img class="go-down-a-bit-10 show-for-medium-up pet-ad-header" src="http://popibay.com/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
+          <img class="go-down-a-bit-30 show-for-small-only" src="http://popibay.com/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
           </a>
         </div>
         <div class="small-12 medium-12 large-5 columns">
@@ -175,9 +175,9 @@
         <div class="small-12 medium-12 large-12 columns">
           <ul class="inline-list" id="inline-footer-links">
             <li><a href="/">Home</a></li>
-            <li><a href="http://localhost:8000/about">About</a></li>
-            <li><a href="http://localhost:8000/faq">FAQ / Help</a></li>
-            <li><a href="http://localhost:8000/contact">Contact</a></li> 
+            <li><a href="http://popibay.com/about">About</a></li>
+            <li><a href="http://popibay.com/faq">FAQ / Help</a></li>
+            <li><a href="http://popibay.com/contact">Contact</a></li> 
           </ul>
         </div>
       </div>
@@ -204,70 +204,70 @@
 </div>
 </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="http://localhost:8000/pb-assets/js/jquery.js"></script>
+    <script src="http://popibay.com/pb-assets/js/jquery.js"></script>
 
     <!-- jQuery ui  -->
-    <script src="http://localhost:8000/pb-assets/js/jquery-ui.js"></script>
+    <script src="http://popibay.com/pb-assets/js/jquery-ui.js"></script>
 
     <!-- foundation js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation.min.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation.min.js"></script>
 
     <!-- foundation reveal js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.reveal.js"></script>
 
     <!-- tooltip js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.tooltip.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.tooltip.js"></script>
 
     <!-- reveal js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.reveal.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.reveal.js"></script>
 
     <!-- equalizer js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.equalizer.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.equalizer.js"></script>
 
     <!-- abide js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.abide.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.abide.js"></script>
 
     <!-- orbit js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.orbit.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.orbit.js"></script>
 
     <!-- alert js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.alert.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.alert.js"></script>
 
     <!-- accordion js -->
-    <script src="http://localhost:8000/pb-assets/frameworks/foundation/js/foundation/foundation.accordion.js"></script>
+    <script src="http://popibay.com/pb-assets/frameworks/foundation/js/foundation/foundation.accordion.js"></script>
 
     <!-- jcarousel js -->
-    <script src="http://localhost:8000/pb-assets/js/jcarousel.jss"></script>
+    <script src="http://popibay.com/pb-assets/js/jcarousel.jss"></script>
 
     <!-- slick js -->
-    <script src="http://localhost:8000/pb-assets/js/slick.js"></script>
+    <script src="http://popibay.com/pb-assets/js/slick.js"></script>
 
     <!-- icheck js -->
-    <script src="http://localhost:8000/pb-assets/js/icheck.min.js"></script>
+    <script src="http://popibay.com/pb-assets/js/icheck.min.js"></script>
 
     <!-- scroll_to_fixed js -->
-    <script src="http://localhost:8000/pb-assets/js/jquery-scrolltofixed-min.js"></script>
+    <script src="http://popibay.com/pb-assets/js/jquery-scrolltofixed-min.js"></script>
 
     <!-- jQuery populate plugin js -->
-    <script src="http://localhost:8000/pb-assets/js/jquery.populate.min.js"></script>
+    <script src="http://popibay.com/pb-assets/js/jquery.populate.min.js"></script>
 
     <!-- zenui select multiple plugin js -->
-    <script src="http://localhost:8000/pb-assets/js/zino.selectbox.min.js"></script>
+    <script src="http://popibay.com/pb-assets/js/zino.selectbox.min.js"></script>
 
     <!-- drop zone js -->
-    <script src="http://localhost:8000/pb-assets/js/dropzone.js"></script>
+    <script src="http://popibay.com/pb-assets/js/dropzone.js"></script>
 
     <!-- jQuery Easy Confirm Dialog js -->
-    <script src="http://localhost:8000/pb-assets/js/jquery.easy-confirm-dialog.js"></script>
+    <script src="http://popibay.com/pb-assets/js/jquery.easy-confirm-dialog.js"></script>
 
     <!-- pb js -->
-    <script src="http://localhost:8000/pb-assets/js/pb.js"></script>
+    <script src="http://popibay.com/pb-assets/js/pb.js"></script>
 
     <!-- lightslider js -->
-    <script src="http://localhost:8000/pb-assets/js/lightslider.min.js"></script>
+    <script src="http://popibay.com/pb-assets/js/lightslider.min.js"></script>
 
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <!-- /*<script src="http://localhost:8000/pb-assets/frameworks/bootstrap/dist/js/bootstrap.min.js"></script>*/ -->
+    <!-- /*<script src="http://popibay.com/pb-assets/frameworks/bootstrap/dist/js/bootstrap.min.js"></script>*/ -->
 
     <script>
       $(document).foundation();
