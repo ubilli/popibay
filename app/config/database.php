@@ -43,6 +43,14 @@ return array(
 	| choice installed on your machine before you begin development.
 	|
 	*/
+	
+	
+	$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+
+	$host = $url["host"];
+	$username = $url["user"];
+	$password = $url["pass"];
+	$database = substr($url["path"], 1);
 
 	'connections' => array(
 
@@ -54,10 +62,10 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
-			'database'  => 'popibay_prototype_3',
-			'username'  => 'popibay',
-			'password'  => 'popibay2015',
+			'host'      => $host,
+			'database'  => $database,
+			'username'  => $username,
+			'password'  => $password,
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
