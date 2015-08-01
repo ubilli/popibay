@@ -149,10 +149,10 @@
       <div class="row">
         <div class="small-12 medium-12 large-12 columns">
         <ul class="inline-list" id="inline-footer-links">
-            <li><a target="_blank" href="http://facebook.com/popibay"><i class="fa fa-facebook fa-lg"></i></a></li>
-            <li><a target="_blank" href="http://twitter.com/@popibay"><i class="fa fa-twitter fa-lg"></i></a></li>
-            <li><a target="_blank" href="http://instagram.com/@popibay"><i class="fa fa-instagram fa-lg"></i></a></li>
-            <li><a target="_blank" href="http://plus.google.com/popibay"><i class="fa fa-google-plus fa-lg"></i></a></li>
+            <li><a target="_blank" href="https://www.facebook.com/mypopibay"><i class="fa fa-facebook fa-lg"></i></a></li>
+            <li><a target="_blank" href="https://twitter.com/mypopibay"><i class="fa fa-twitter fa-lg"></i></a></li>
+            <li><a target="_blank" href="https://instagram.com/mypopibay/"><i class="fa fa-instagram fa-lg"></i></a></li>
+            <li><a target="_blank" href="https://plus.google.com/+Popibay"><i class="fa fa-google-plus fa-lg"></i></a></li>
         </ul>
         </div>
       </div>
