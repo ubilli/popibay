@@ -56,7 +56,7 @@
 
             <section class="middle tab-bar-section">
               <a href="/">
-              <img class="res-pb-logo" src="http://localhost:8000/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
+              <img class="res-pb-logo" src="http://popibay.com/pb-assets/img/main_logo/popibay_white_logo_small.png" alt="popibay logo">
               </a>
             </section>
           </nav>
