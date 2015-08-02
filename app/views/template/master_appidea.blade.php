@@ -10,7 +10,7 @@
     <meta name="keywords" content="popibay, dogs, puppies, pet business, e-commerce, puppies, pet managers, ebay, pet bay, olx, trade stable, jumia, konga, Buy, buy, sell, manage, escrow, escrow services,  services, sales, auction, facebook, twitter, google plus, instagram, google, alibaba, amazon, pets, dogs4sale, dogs for sale, security dogs,
     Breeder, breeders, Dog Management, Dog Market place, admire, Pet Profiling, Pet Market place">
 
-    <title> Popibay || Classified for pets</title>
+    <title> Popibay || my #1 pet classified ads market in Nigeria</title>
 
     <link rel="shortcut icon" href="pb-assets/img/favicon/popibay_favicon_70.png">
 
