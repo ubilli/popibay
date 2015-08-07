@@ -11,22 +11,18 @@
 			<div class="post-box-content">
 				<div class="row">
 					<div class="small-12 medium-12 large-8 columns">
-						<h3 class="text-left pb-main-text-title-color"><i class="fa fa-phone"></i> About Popibay</h3>
+						<h3 class="text-left pb-main-text-title-color"><i class="fa fa-info-circle"></i> About Popibay</h3>
 						<hr>
 						<h6 class="text-left">
-							Popibay.com is a marketplace where you can buy and sell pet and animals. The best deals are often done with people who live in your own city or on your own street, so on Popibay.com it's easy to buy and sell within your area. All you have to do is select your region.
+							Popibay.com is a marketplace where you can buy and sell pets. The best deals are often done with people who live in your own state, city or even on your own Street. So on Popibay.com, it's easy to buy and sell within your area. All you have to do is select your region.
 						</h6>
 						<br>
 						<h6 class="text-left">
-							It's free to post a classified pet ad on Popibay.com, and it takes you less than 5 minutes. You can sign up for a free account and post ads easily every time.
+							It's free to post a classified pet ad on Popibay.com, and it takes you less than 5 minutes. You can sign up for a free account and post ads easily anytime.
 						</h6>
 						<br>
 						<h6 class="text-left">
-							It's free to post a classified pet ad on Popibay.com, and it takes you less than 5 minutes. You can sign up for a free account and post ads easily every time.
-						</h6>
-						<br>
-						<h6 class="text-left">
-							Popibay.com specialize on only pet and animals category - here you can buy and sell items in these categories, as we aspire to serve the pet market community and target ecommerce and pet breeders connection from Nigeria to the African community. We also carefully review all ads that are being published, to make sure the quality is up to our standards. If you like to talk with us <a href="/contact" class="orange-text-link">contact us</a>.
+							Popibay.com specialize only on pet ads here you can buy and sell pets. We aspire to serve the pet market community, e-commerce and pet breeders connection from Nigeria to the African community. We also carefully review all ads that are being published to make sure the quality is up to our standards. If you like to talk with us contact us.<a href="/contact" class="orange-text-link">contact us</a>.
 						</h6>
 					</div>
 					<div class="small-12 medium-12 large-4 columns">
