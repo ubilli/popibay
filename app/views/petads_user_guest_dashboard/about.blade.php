@@ -22,7 +22,7 @@
 						</h6>
 						<br>
 						<h6 class="text-left">
-							Popibay.com specialize only on pet ads here you can buy and sell pets. We aspire to serve the pet market community, e-commerce and pet breeders connection from Nigeria to the African community. We also carefully review all ads that are being published to make sure the quality is up to our standards. If you like to talk with us <a href="/contact" class="orange-text-link">contact us</a>.
+							Popibay.com specialize only on pet ads - here you can buy and sell pets. We aspire to serve the pet market community, e-commerce and pet breeders connection from Nigeria to the African community. We also carefully review all ads that are being published to make sure the quality is up to our standards. If you like to talk with us <a href="/contact" class="orange-text-link">contact us</a>.
 						</h6>
 					</div>
 					<div class="small-12 medium-12 large-4 columns">
