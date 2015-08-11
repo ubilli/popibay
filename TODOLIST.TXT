@@ -572,7 +572,7 @@ BACK UP PET ADS HEADER/FOOTER TEMPLATE
 
       
       var jssor_slider1 = new $JssorSlider$('slider1_container');
-      // cool. so cool.
+      // cool. so cool...
     </script>
   </body>
 </html>
