@@ -3,6 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta name="google-site-verification" content="wH9U4Ukzo2fqUNfKy5jaNHpZpvS7Wg2Hq-PiI0Dy9fA" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="popibay">
