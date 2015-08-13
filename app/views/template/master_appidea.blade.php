@@ -7,11 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="popibay">
-    <meta name="description" content="Popibay is an online market, Pet management, Pet e-commerce that manages the Pet business from the Pet manager to the Pet buyer, Also it manages the life cycle of the Pet from the puppy stage to the stage of being sold out to the direct buyers, which notifies it buyers about each and every process of the puppy.">
-    <meta name="keywords" content="popibay, dogs, puppies, pet business, e-commerce, puppies, pet managers, ebay, pet bay, olx, trade stable, jumia, konga, Buy, buy, sell, manage, escrow, escrow services,  services, sales, auction, facebook, twitter, google plus, instagram, google, alibaba, amazon, pets, dogs4sale, dogs for sale, security dogs,
-    Breeder, breeders, Dog Management, Dog Market place, admire, Pet Profiling, Pet Market place">
+    <meta name="description" content="Add your free classified pet ads of your dogs, and sell to buyers in Nigeria, Popibay is a pet only classified ads market.">
+    <meta name="keywords" content="pets, popibay, dogs, puppies, pet business, e-commerce, puppies, pet managers, ebay, pet bay, olx, trade stable, jumia, konga, Buy, buy, sell, manage, escrow, escrow services,  services, sales, auction, facebook, twitter, google plus, instagram, google, alibaba, amazon, pets, dogs4sale, dogs for sale, Security dogs, Breeder, breeders, Dog Management, Dog Market place, admire, Pet Profiling, Pet Market place">
 
-    <title> Popibay || my #1 pet classified ads market in Nigeria</title>
+    <title> Popibay || #1 pet only classified ads market in Nigeria</title>
 
     <link rel="shortcut icon" href="pb-assets/img/favicon/popibay_favicon_70.png">
 
