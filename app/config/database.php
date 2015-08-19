@@ -56,9 +56,9 @@ return array(
 		'mysql' => array(
 			'driver'    => 'mysql',
 			'host'      => 'http://52.26.245.4',
-			'database'  => popibay_prototype_3,
-			'username'  => root,
-			'password'  => popibay2015,
+			'database'  => 'popibay_prototype_3',
+			'username'  => 'root',
+			'password'  => 'popibay2015',
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
