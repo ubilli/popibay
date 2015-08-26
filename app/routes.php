@@ -605,3 +605,8 @@ Route::get('filter', ['before' => 'auth', function()
 	return View::make('filter');
 }]);
 
+Route::get('inbound', function()
+{
+	return View::make('admin.petonline');
+});
+
