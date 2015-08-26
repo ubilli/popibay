@@ -607,7 +607,7 @@ Route::get('filter', ['before' => 'auth', function()
 
 Route::get('inbound', function()
 {
-    $result = file_get_contents('http://requestb.in/qqo8czqq');
-    echo $result;
+	$result = file_get_contents('http://requestb.in/qqo8czqq');
+   	dd($result);
 });
 
