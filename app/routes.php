@@ -607,7 +607,9 @@ Route::get('filter', ['before' => 'auth', function()
 
 Route::get('inbound', function()
 {
-	$web_hook_url = file_get_contents("http://popibay.com/inbound");
-	dd($web_hook_url);
+	
+	$test = Input::get('mandrill_events');
+	dd($test);
+
 });
 
