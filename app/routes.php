@@ -607,37 +607,7 @@ Route::get('filter', ['before' => 'auth', function()
 
 Route::get('inbound', function()
 {
-	try {
-	$mandrill = new Mandrill('33um6yZKpG1oppimcODO3w');
-	$raw_message = 'From: info@popibay.com
-	To: udemesamuel256@gmail.com
-	Subject: Some Subject testing.
-
-	Some content.';
-	$to = array('info@popibay.com');
-	$mail_from = 'udemesamuel256@gmail.com';
-	$helo = 'example.com';
-	$client_address = '127.0.0.1';
-	$result = $mandrill->inbound->sendRaw($raw_message, $to, $mail_from, $helo, $client_address);
-	print_r($result);
-    /*
-    Array
-    (
-        [0] => Array
-            (
-                [email] => mailbox-123@inbound.example.com
-                [pattern] => mailbox-*
-                [url] => http://example.com/webhook-url
-            )
-    
-    )
-    */
-} catch(Mandrill_Error $e) {
-    // Mandrill errors are thrown as exceptions
-    echo 'A mandrill error occurred: ' . get_class($e) . ' - ' . $e->getMessage();
-    // A mandrill error occurred: Mandrill_Invalid_Key - Invalid API key
-    throw $e;
-}
-
+	$web_hook_url = file_get_contents("http://popibay.com/inbound");
+	dd($web_hook_url);
 });
 
