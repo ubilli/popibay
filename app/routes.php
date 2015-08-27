@@ -613,3 +613,19 @@ Route::get('inbound', function()
 
 });
 
+Route::get('mailtesting', function()
+{
+	$confirmation_code = array('confirmation_code' => '222', 'pb_username' => '$pbname');
+	Mail::send('emails.welcome_updated', $confirmation_code, function($message)
+	{
+		// $pbemail = Input::get('email');
+		// $pbname = Input::get('name');
+
+		$pb_user_name = 'ubilli';
+		$pb_user_email = 'udemesamuel@ymail.com';
+
+		$message->from('udemesamuel@outlook.com');
+		$message->to('udemesamuel256@gmail.com', $pb_user_name)->subject('Welcome to Popibay ');
+	});
+});
+
