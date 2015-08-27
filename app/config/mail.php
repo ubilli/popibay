@@ -28,7 +28,7 @@ return array(
 	|
 	*/
 
-	'host' => 'smtp.gmail.com',// smtp.mailgun.org
+	'host' => 'smtp.mandrillapp.com',// smtp.mailgun.org
 
 	/*
 	|--------------------------------------------------------------------------
@@ -41,7 +41,7 @@ return array(
 	|
 	*/
 
-	'port' => 465,//587
+	'port' => 587,//587
 
 	/*
 	|--------------------------------------------------------------------------
@@ -54,7 +54,7 @@ return array(
 	|
 	*/
 
-	'from' => array('address' => null, 'name' => null),
+	'from' => array('address' => 'udemesamuel256@gmail.com', 'name' => 'Popibay'),
 
 	/*
 	|--------------------------------------------------------------------------
@@ -67,7 +67,7 @@ return array(
 	|
 	*/
 
-	'encryption' => 'ssl',//tls
+	'encryption' => 'tls',//tls
 
 	/*
 	|--------------------------------------------------------------------------
@@ -93,7 +93,7 @@ return array(
 	|
 	*/
 
-	'password' => 'GOOoogle8',
+	'password' => 'hoII_hEAdFwJKWVbkCtNAw',
 
 	/*
 	|--------------------------------------------------------------------------
